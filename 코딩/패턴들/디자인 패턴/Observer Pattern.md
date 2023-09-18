@@ -149,4 +149,5 @@ band.endConcert();
 
 ## 참고
 - [패턴즈](https://patterns-dev-kr.github.io/design-patterns/observer-pattern/)
+- [위키피디아](https://ko.wikipedia.org/wiki/%EC%98%B5%EC%84%9C%EB%B2%84_%ED%8C%A8%ED%84%B4)
 - [노마드코더](https://www.youtube.com/watch?v=bdcxCpB68Xs&ab_channel=%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94NomadCoders)

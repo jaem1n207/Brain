@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "면접/패턴들/디자인 패턴/Observer Pattern.md",
+                "file": "코딩/패턴들/디자인 패턴/Observer Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "면접/패턴들/디자인 패턴/Facade Pattern.md",
+                "file": "코딩/패턴들/디자인 패턴/Facade Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "면접/패턴들/디자인 패턴/Facade Pattern.md",
+                "file": "코딩/패턴들/디자인 패턴/Facade Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "면접/패턴들/디자인 패턴/Facade Pattern.md",
+                "file": "코딩/패턴들/디자인 패턴/Facade Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "면접/패턴들/디자인 패턴/Facade Pattern.md"
+                "file": "코딩/패턴들/디자인 패턴/Facade Pattern.md"
               }
             }
           }
@@ -178,12 +178,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "729f0b461da90162",
+  "active": "3f5c63b7d9de1aa3",
   "lastOpenFiles": [
-    "면접/이직 캔버스.canvas",
-    "면접/프론트엔드 기술 면접 준비.md",
-    "README.md",
-    "면접/패턴들/디자인 패턴/Facade Pattern.md",
-    "면접/패턴들/디자인 패턴/Observer Pattern.md"
+    "코딩/패턴들/디자인 패턴/Observer Pattern.md",
+    "코딩/패턴들/디자인 패턴/Facade Pattern.md",
+    "코딩/이직 캔버스.canvas",
+    "코딩/프론트엔드 기술 면접 준비.md",
+    "README.md"
   ]
 }
