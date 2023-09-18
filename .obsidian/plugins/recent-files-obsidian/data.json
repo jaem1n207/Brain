@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "옵저버 패턴",
-      "path": "면접/패턴들/디자인 패턴/옵저버 패턴.md"
+      "basename": "Facade Pattern",
+      "path": "면접/패턴들/디자인 패턴/Facade Pattern.md"
+    },
+    {
+      "basename": "이직 캔버스",
+      "path": "면접/이직 캔버스.canvas"
+    },
+    {
+      "basename": "Observer Pattern",
+      "path": "면접/패턴들/디자인 패턴/Observer Pattern.md"
+    },
+    {
+      "basename": "프론트엔드 기술 면접 준비",
+      "path": "면접/프론트엔드 기술 면접 준비.md"
     },
     {
       "basename": "README",
