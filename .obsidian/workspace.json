@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "면접/패턴들/디자인 패턴/옵저버 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Design-Pattern",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e83e4af485ec51d3",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "면접/패턴들/디자인 패턴/옵저버 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "면접/패턴들/디자인 패턴/옵저버 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "면접/패턴들/디자인 패턴/옵저버 패턴.md"
               }
             }
           }
@@ -160,8 +161,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a80cdffa8223c7c5",
+  "active": "54c1e6b7c101d237",
   "lastOpenFiles": [
+    "README.md",
     "면접/패턴들/디자인 패턴/옵저버 패턴.md"
   ]
 }
