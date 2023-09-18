@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Facade Pattern",
-      "path": "코딩/패턴들/디자인 패턴/Facade Pattern.md"
+      "basename": "Builder Pattern",
+      "path": "코딩/패턴들/디자인 패턴/Builder Pattern.md"
     },
     {
       "basename": "Observer Pattern",
       "path": "코딩/패턴들/디자인 패턴/Observer Pattern.md"
     },
     {
-      "basename": "이직 캔버스",
-      "path": "코딩/이직 캔버스.canvas"
-    },
-    {
       "basename": "프론트엔드 기술 면접 준비",
       "path": "코딩/프론트엔드 기술 면접 준비.md"
+    },
+    {
+      "basename": "Facade Pattern",
+      "path": "코딩/패턴들/디자인 패턴/Facade Pattern.md"
+    },
+    {
+      "basename": "이직 캔버스",
+      "path": "코딩/이직 캔버스.canvas"
     },
     {
       "basename": "README",

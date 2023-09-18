@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Facade Pattern.md",
+                "file": "코딩/패턴들/디자인 패턴/Builder Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Design-Pattern",
+                "query": "\"class ApiFacade {\tprivate baseUrl: string;\t\t\t// 생성자에서 `baseUrl`프로퍼티가 전달되는 ApiFacade 클래스를 생성합니다.\t\tconstructor(baseUrl: string) {\t\tthis.baseUrl = baseUrl;\t\t}\t\t\t// API에서 데이터를 보내는 메서드를 정의합니다.\t\tasync post(path: string, data: any) {\t\tconst response = await fetch(`${this.baseUrl}${path}`, {\t\tmethod: 'POST',\t\theaders: {\t\t'Content-Type': 'application/json',\t\t},\t\tbody: JSON.stringify(data),\t\t});\t\t  \t\treturn response.json();\t\t}\t\t  \t// API에서 데이터를 가져오는 메서드를 정의합니다.\t\tasync get(path: string) {\t\tconst response = await fetch(`${this.baseUrl}${path}`, {\t\tmethod: 'GET',\t\t});\t\t  \treturn response.json();\t\t}\t\t}\t\t\t// 기본 URL을 설정합니다.\t\tconst api = new ApiFacade('https://jsonplaceholder.typicode.com');\t\t\t// 경로와 데이터를 호출해서 사용할 수 있습니다.\t\tconst users = await api.get('/users');\t\tconst createdUser = await api.post('/users', {\t\tname: 'John Doe',\t\tage: 30,});\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Facade Pattern.md",
+                "file": "코딩/패턴들/디자인 패턴/Builder Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Facade Pattern.md",
+                "file": "코딩/패턴들/디자인 패턴/Builder Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Facade Pattern.md"
+                "file": "코딩/패턴들/디자인 패턴/Builder Pattern.md"
               }
             }
           }
@@ -175,15 +175,17 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "3f5c63b7d9de1aa3",
+  "active": "729f0b461da90162",
   "lastOpenFiles": [
     "코딩/패턴들/디자인 패턴/Observer Pattern.md",
+    "코딩/패턴들/디자인 패턴/Builder Pattern.md",
+    "코딩/프론트엔드 기술 면접 준비.md",
     "코딩/패턴들/디자인 패턴/Facade Pattern.md",
     "코딩/이직 캔버스.canvas",
-    "코딩/프론트엔드 기술 면접 준비.md",
     "README.md"
   ]
 }

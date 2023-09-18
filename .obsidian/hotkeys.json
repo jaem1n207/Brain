@@ -16,5 +16,14 @@
       ],
       "key": "H"
     }
+  ],
+  "obsidian-format-code:format-prettier-TypeScript": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "U"
+    }
   ]
 }

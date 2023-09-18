@@ -36,32 +36,32 @@ interface Observable {
 이제 `Observable`(밴드)를 간단히 구현해 보겠습니다. 
 ```typescript
 class Band implements Observable {
-	private observers: Observer[] = [];
-  
-	subscribe(observer: Observer) {
-		this.observers.push(observer);
-	}
+  private observers: Observer[] = []
 
-	unsubscribe(observer: Observer) {
-		this.observers = this.observers.filter((o) => o !== observer);
-	}
-	
-	notify(event: string) {
-		this.observers.forEach((o) => o.onNotify(event));
-	}
-	
-	// START 이벤트를 통해 Observer에게 알립니다.
-	startConcert(): void {
-		this.notify('START');
-	}
-	
-	playSong(): void {
-		this.notify('PLAY_SONG');
-	}
-	
-	endConcert(): void {
-		this.notify('END');
-	}
+  subscribe(observer: Observer) {
+    this.observers.push(observer)
+  }
+
+  unsubscribe(observer: Observer) {
+    this.observers = this.observers.filter((o) => o !== observer)
+  }
+
+  notify(event: string) {
+    this.observers.forEach((o) => o.onNotify(event))
+  }
+
+  // START 이벤트를 통해 Observer에게 알립니다.
+  startConcert(): void {
+    this.notify("START")
+  }
+
+  playSong(): void {
+    this.notify("PLAY_SONG")
+  }
+
+  endConcert(): void {
+    this.notify("END")
+  }
 }
 ```
 
@@ -78,64 +78,63 @@ interface Observer {
 ```typescript
 // 팬
 class Fan implements Observer {
-	onNotify(event: string): void {
-		if (event === 'START') {
-			console.log('환호성');
-		} else if (event === 'END') {
-			console.log('즐거웠어요');
-		}
-	}
+  onNotify(event: string): void {
+    if (event === "START") {
+      console.log("환호성")
+    } else if (event === "END") {
+      console.log("즐거웠어요")
+    }
+  }
 }
 
 // 보안 요원
 class Security implements Observer {
-	onNotify(event: string): void {
-		if (event === 'START') {
-			console.log('문 닫기');
-		} else if (event === 'END') {
-			console.log('문 열기');
-		}
-	}
+  onNotify(event: string): void {
+    if (event === "START") {
+      console.log("문 닫기")
+    } else if (event === "END") {
+      console.log("문 열기")
+    }
+  }
 }
 
 // 조명
 class Lights implements Observer {
-	onNotify(event: string): void {
-		if (event === 'PLAY_SONG') {
-			console.log('불이 켜짐')
-		}
-	}
+  onNotify(event: string): void {
+    if (event === "PLAY_SONG") {
+      console.log("불이 켜짐")
+    }
+  }
 }
+
 ```
 
 아직까지 `Observable`과 `Observer`를 연결하지 않았기 때문에 알림을 받을 수 없습니다. 이 함수들이 `Observer`로 작동하기 위해서는 `Observable`의 `subscribe`함수를 사용해야 합니다.
 ```typescript
 // Observer를 생성합니다.
-const fan = new Fan();
+const fan = new Fan()
 
-const security = new Security();
+const security = new Security()
 
-const lights = new Lights();
-  
+const lights = new Lights()
 
 // band를 초기화합니다.
-const band = new Band();
-
+const band = new Band()
 
 // Observer를 band에 등록합니다.
-band.subscribe(fan);
+band.subscribe(fan)
 
-band.subscribe(security);
+band.subscribe(security)
 
-band.subscribe(lights);
-
+band.subscribe(lights)
 
 // 콘서트가 시작될 때, 콘서트가 끝날 때, 노래가 재생될 때 모든 Observer에게 알림이 전송됩니다.
-band.startConcert();
+band.startConcert()
 
-band.playSong();
+band.playSong()
 
-band.endConcert();
+band.endConcert()
+
 ```
 
 이제 밴드와 팬들, 보안, 조명이 모두 각자의 업무를 개별적으로 각각 처리할 수 있는 시스템을 갖추게 되었습니다. 동시에 구독 및 알림 메커니즘을 통해 동기화 상태를 유지합니다. 각 부분이 깔끔하고 유연한 방식으로 정보를 공유할 수 있게 된 것입니다. 👍

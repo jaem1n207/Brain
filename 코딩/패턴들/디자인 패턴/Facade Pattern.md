@@ -13,97 +13,77 @@ tags:
 스마트홈 파사드를 구현해보겠습니다.
 ```typescript
 class SmartHomeFacade {
+  private lights: Lights
 
-	private lights: Lights;
-	
-	private airConditioner: AirConditioner;
-	
-	private security: Security;
-	
-	private tv: TV;
-	
-	  
-	
-	// 생성자에서 제어할 서브시스템을 초기화합니다.
-	
-	constructor() {
-	
-		this.lights = new Lights();
-		
-		this.airConditioner = new AirConditioner();
-		
-		this.security = new Security();
-		
-		this.tv = new TV();
-	
-	}
-	
-	  
-	
-	// 집을 나설 때, 모든 조명을 끄고, 에어컨을 끄고, 보안을 켭니다.
-	
-	public leaveHome(): void {
-	
-		this.lights.turnOffAll();
-		
-		this.airConditioner.off();
-		
-		this.security.arm();
-	
-	}
-	
-	  
-	
-	// 집에 돌아오면 현관 조명을 켜고, 에어컨을 켜고, 보안을 해제합니다.
-	
-	public arriveHome(): void {
-	
-		this.lights.turnOnEntrance();
-		
-		this.airConditioner.on();
-		
-		this.security.disarm();
-	
-	}
-	
-	  
-	
-	// 영화를 본다면, 거실 조명을 어둡게 하고, TV 채널을 영화 채널로 바꾸고, 에어컨을 켭니다.
-	
-	public movieMode(): void {
-	
-		this.lights.dimLivingRoom();
-		
-		this.tv.setChannel('Movie Channel');
-		
-		this.airConditioner.on();
-	
-	}
-	
-	  
-	
-	// 취침한다면, 모든 조명을 끄고, 에어컨을 끄고, 보안을 켭니다.
-	
-	public sleepMode(): void {
-	
-		this.lights.turnOffAll();
-		
-		this.airConditioner.off();
-		
-		this.security.arm();
-	
-	}
+  private airConditioner: AirConditioner
+
+  private security: Security
+
+  private tv: TV
+
+  // 생성자에서 제어할 서브시스템을 초기화합니다.
+
+  constructor() {
+    this.lights = new Lights()
+
+    this.airConditioner = new AirConditioner()
+
+    this.security = new Security()
+
+    this.tv = new TV()
+  }
+
+  // 집을 나설 때, 모든 조명을 끄고, 에어컨을 끄고, 보안을 켭니다.
+
+  public leaveHome(): void {
+    this.lights.turnOffAll()
+
+    this.airConditioner.off()
+
+    this.security.arm()
+  }
+
+  // 집에 돌아오면 현관 조명을 켜고, 에어컨을 켜고, 보안을 해제합니다.
+
+  public arriveHome(): void {
+    this.lights.turnOnEntrance()
+
+    this.airConditioner.on()
+
+    this.security.disarm()
+  }
+
+  // 영화를 본다면, 거실 조명을 어둡게 하고, TV 채널을 영화 채널로 바꾸고, 에어컨을 켭니다.
+
+  public movieMode(): void {
+    this.lights.dimLivingRoom()
+
+    this.tv.setChannel("Movie Channel")
+
+    this.airConditioner.on()
+  }
+
+  // 취침한다면, 모든 조명을 끄고, 에어컨을 끄고, 보안을 켭니다.
+
+  public sleepMode(): void {
+    this.lights.turnOffAll()
+
+    this.airConditioner.off()
+
+    this.security.arm()
+  }
 }
 
-const smartHome = new SmartHomeFacade();
+const smartHome = new SmartHomeFacade()
 
-smartHome.leaveHome();
+smartHome.leaveHome()
 
-smartHome.arriveHome();
+smartHome.arriveHome()
 
-smartHome.movieMode();
+smartHome.movieMode()
 
-smartHome.sleepMode();
+smartHome.sleepMode()
+
 ```
 
 이제 스마트 홈에 파사드가 생겼습니다. 파사드 패턴 덕분에 <mark style="background: #ADCCFFA6;">복잡성을 숨기고</mark> 사용하기 쉬운 인터페이스를 얻을 수 있습니다. 필요한 메서드만 호출하면 그 뒤에서 일어나는 알 필요 없습니다.
@@ -113,76 +93,78 @@ smartHome.sleepMode();
 코드로 예시를 들어보겠습니다.
 ```typescript
 class ApiFacade {
-	private baseUrl: string;
-	
-	
-	// 생성자에서 `baseUrl`프로퍼티가 전달되는 ApiFacade 클래스를 생성합니다.
-	
-	constructor(baseUrl: string) {
-	
-	this.baseUrl = baseUrl;
-	
-	}
-	
-	
-	// API에서 데이터를 보내는 메서드를 정의합니다.
-	
-	async post(path: string, data: any) {
-	
-	const response = await fetch(`${this.baseUrl}${path}`, {
-	
-	method: 'POST',
-	
-	headers: {
-	
-	'Content-Type': 'application/json',
-	
-	},
-	
-	body: JSON.stringify(data),
-	
-	});
-	
-	  
-	
-	return response.json();
-	
-	}
-	
-	  
-	// API에서 데이터를 가져오는 메서드를 정의합니다.
-	
-	async get(path: string) {
-	
-	const response = await fetch(`${this.baseUrl}${path}`, {
-	
-	method: 'GET',
-	
-	});
-	
-	  
-	return response.json();
-	
-	}
-	
-	}
-	
-	
-	// 기본 URL을 설정합니다.
-	
-	const api = new ApiFacade('https://jsonplaceholder.typicode.com');
-	
-	
-	// 경로와 데이터를 호출해서 사용할 수 있습니다.
-	
-	const users = await api.get('/users');
-	
-	const createdUser = await api.post('/users', {
-	
-	name: 'John Doe',
-	
-	age: 30,
-});
+  private baseUrl: string
+
+  // 생성자에서 `baseUrl`프로퍼티가 전달되는 ApiFacade 클래스를 생성합니다.
+
+  constructor(baseUrl: string) {
+    this.baseUrl = baseUrl
+  }
+
+  // API에서 데이터를 보내는 메서드를 정의합니다.
+
+  async post(path: string, data: any) {
+    const response = await fetch(`${this.baseUrl}${path}`, {
+      method: "POST",
+
+      headers: {
+        "Content-Type": "application/json",
+      },
+
+      body: JSON.stringify(data),
+    })
+
+    return response.json()
+  }
+
+  // API에서 데이터를 가져오는 메서드를 정의합니다.
+
+  async get(path: string) {
+    const response = await fetch(`${this.baseUrl}${path}`, {
+      method: "GET",
+    })
+
+    return response.json()
+  }
+}
+
+// 기본 URL을 설정합니다.
+
+const api = new ApiFacade("https://jsonplaceholder.typicode.com")
+
+// 경로와 데이터를 호출해서 사용할 수 있습니다.
+
+const users = await api.get("/users")
+
+const createdUser = await api.post("/users", {
+  name: "John Doe",
+  age: 30,
+})
+```
+
+한 단계 더 나아가 모든 API 액션에 대한 메서드를 만들 수 있습니다. (getUsers, createUser)
+```ts
+class ApiFacade {
+  ...
+  
+  // API 액션에 대한 메서드를 정의합니다.
+  async getUsers() {
+    return this.get("/users")
+  }
+
+  async createUser(data: any) {
+    return this.post("/users", data)
+  }
+}
+
+// 파사드를 사용해 더욱 의미를 알아보기 쉬워졌습니다.
+const users = await api.getUsers()
+
+const createdUser = await api.createUser({
+  name: "John Doe",
+  age: 30,
+})
+
 ```
 
 ### 참고
