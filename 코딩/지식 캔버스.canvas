@@ -6,17 +6,17 @@
 		{"id":"10847195ad6b5e72","type":"file","file":"코딩/patterns/design-patterns/observer-pattern.md","x":-1240,"y":-1440,"width":400,"height":400},
 		{"id":"36e9a1b0fbe83120","type":"file","file":"코딩/patterns/design-patterns/singleton.md","x":-636,"y":-1440,"width":400,"height":400},
 		{"id":"8e62cb5c65dc6338","type":"text","text":"design-patterns\n","x":-1090,"y":-560,"width":250,"height":50,"color":"3"},
-		{"id":"66b4801592fdb4f5","type":"file","file":"코딩/cs/data-structure/tree/binary-search-tree.md","x":1234,"y":-320,"width":400,"height":400},
-		{"id":"dffd3bd139dfabc0","type":"file","file":"코딩/cs/data-structure/tree/binary-tree.md","x":1679,"y":-320,"width":400,"height":400},
 		{"id":"a978f79d06642239","type":"text","text":"cs","x":320,"y":-70,"width":250,"height":60,"color":"3"},
-		{"id":"9ab882f8aeaaffae","type":"text","text":"data-structure","x":570,"y":-510,"width":250,"height":60,"color":"3"},
-		{"id":"554c511589afd393","type":"file","file":"코딩/cs/data-structure/stack & queue.md","x":45,"y":-1040,"width":400,"height":400},
-		{"id":"993c5eee725d8a29","type":"file","file":"코딩/cs/data-structure/hash-table.md","x":495,"y":-1240,"width":400,"height":400},
-		{"id":"5f72c2ec4756af20","type":"file","file":"코딩/cs/data-structure/linked-list.md","x":960,"y":-1040,"width":400,"height":400},
-		{"id":"2ec21fab0331ddac","type":"file","file":"코딩/cs/data-structure/array.md","x":1400,"y":-1040,"width":400,"height":400},
-		{"id":"4891bc4f4e63844a","type":"file","file":"코딩/cs/data-structure/bindary-heap.md","x":760,"y":-210,"width":400,"height":400},
-		{"id":"bfb65fba8f27585c","type":"file","file":"코딩/cs/data-structure/tree/full-binary-tree.md","x":2565,"y":-320,"width":400,"height":400},
-		{"id":"b684620e291210b5","type":"file","file":"코딩/cs/data-structure/tree/complete-binary-tree.md","x":2120,"y":-320,"width":400,"height":400}
+		{"id":"9ab882f8aeaaffae","type":"text","text":"data-structure","x":1035,"y":-450,"width":250,"height":60,"color":"3"},
+		{"id":"2ec21fab0331ddac","type":"file","file":"코딩/cs/data-structure/array.md","x":1790,"y":-1440,"width":400,"height":400},
+		{"id":"554c511589afd393","type":"file","file":"코딩/cs/data-structure/stack & queue.md","x":435,"y":-1440,"width":400,"height":400},
+		{"id":"993c5eee725d8a29","type":"file","file":"코딩/cs/data-structure/hash-table.md","x":885,"y":-1640,"width":400,"height":400},
+		{"id":"5f72c2ec4756af20","type":"file","file":"코딩/cs/data-structure/linked-list.md","x":1350,"y":-1440,"width":400,"height":400},
+		{"id":"4891bc4f4e63844a","type":"file","file":"코딩/cs/data-structure/bindary-heap.md","x":45,"y":-935,"width":400,"height":400},
+		{"id":"dffd3bd139dfabc0","type":"file","file":"코딩/cs/data-structure/tree/binary-tree.md","x":2765,"y":-1615,"width":400,"height":400},
+		{"id":"bfb65fba8f27585c","type":"file","file":"코딩/cs/data-structure/tree/full-binary-tree.md","x":2765,"y":-1135,"width":400,"height":400},
+		{"id":"b684620e291210b5","type":"file","file":"코딩/cs/data-structure/tree/complete-binary-tree.md","x":2320,"y":-1135,"width":400,"height":400},
+		{"id":"66b4801592fdb4f5","type":"file","file":"코딩/cs/data-structure/tree/binary-search-tree.md","x":2320,"y":-1615,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"01695f6760ad5cb9","fromNode":"c3609f200fea66a8","fromSide":"right","toNode":"8e62cb5c65dc6338","toSide":"left"},
@@ -29,6 +29,11 @@
 		{"id":"3eb52d1283ae770a","fromNode":"5f72c2ec4756af20","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"top"},
 		{"id":"1cb6e11c79936a5b","fromNode":"993c5eee725d8a29","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"top"},
 		{"id":"6ffc2d745ed12d2d","fromNode":"554c511589afd393","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"left"},
-		{"id":"b45f3778c4ed648d","fromNode":"2ec21fab0331ddac","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"top"}
+		{"id":"b45f3778c4ed648d","fromNode":"2ec21fab0331ddac","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"top"},
+		{"id":"d50737eaa80a7429","fromNode":"66b4801592fdb4f5","fromSide":"left","toNode":"9ab882f8aeaaffae","toSide":"right"},
+		{"id":"7b2b7d2a917e925f","fromNode":"b684620e291210b5","fromSide":"left","toNode":"9ab882f8aeaaffae","toSide":"right"},
+		{"id":"c0538d6df9010314","fromNode":"bfb65fba8f27585c","fromSide":"left","toNode":"9ab882f8aeaaffae","toSide":"bottom"},
+		{"id":"8a1dd73b2427d27a","fromNode":"dffd3bd139dfabc0","fromSide":"left","toNode":"9ab882f8aeaaffae","toSide":"bottom"},
+		{"id":"0ac9f7ac780e99af","fromNode":"4891bc4f4e63844a","fromSide":"right","toNode":"9ab882f8aeaaffae","toSide":"top"}
 	]
 }

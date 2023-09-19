@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "hash-table",
+      "path": "코딩/cs/data-structure/hash-table.md"
+    },
+    {
+      "basename": "array",
+      "path": "코딩/cs/data-structure/array.md"
+    },
+    {
       "basename": "지식 캔버스",
       "path": "코딩/지식 캔버스.canvas"
+    },
+    {
+      "basename": "bindary-heap",
+      "path": "코딩/cs/data-structure/bindary-heap.md"
+    },
+    {
+      "basename": "binary-search-tree",
+      "path": "코딩/cs/data-structure/tree/binary-search-tree.md"
     },
     {
       "basename": "complete-binary-tree",
@@ -13,24 +29,8 @@
       "path": "코딩/cs/data-structure/tree/binary-tree.md"
     },
     {
-      "basename": "binary-search-tree",
-      "path": "코딩/cs/data-structure/tree/binary-search-tree.md"
-    },
-    {
-      "basename": "bindary-heap",
-      "path": "코딩/cs/data-structure/bindary-heap.md"
-    },
-    {
-      "basename": "array",
-      "path": "코딩/cs/data-structure/array.md"
-    },
-    {
       "basename": "linked-list",
       "path": "코딩/cs/data-structure/linked-list.md"
-    },
-    {
-      "basename": "hash-table",
-      "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
       "basename": "stack & queue",

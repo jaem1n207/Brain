@@ -11,14 +11,11 @@
             "id": "5c96c438f637b2c5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "코딩/지식 캔버스.canvas",
-                "viewState": {
-                  "x": 1394.1754967494344,
-                  "y": -135.327035339267,
-                  "zoom": -1.1239231288433074
-                }
+                "file": "코딩/cs/data-structure/hash-table.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/지식 캔버스.canvas",
+                "file": "코딩/cs/data-structure/hash-table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/지식 캔버스.canvas",
+                "file": "코딩/cs/data-structure/hash-table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/지식 캔버스.canvas"
+                "file": "코딩/cs/data-structure/hash-table.md"
               }
             }
           }
@@ -166,6 +163,8 @@
   },
   "active": "5c96c438f637b2c5",
   "lastOpenFiles": [
+    "코딩/cs/data-structure/array.md",
+    "코딩/지식 캔버스.canvas",
     "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/bindary-heap.md",
     "코딩/cs/data-structure/tree/complete-binary-tree.md",
@@ -177,8 +176,6 @@
     "코딩/cs/data-structure/tree.md",
     "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/linked-list.md",
-    "코딩/cs/data-structure/array.md",
-    "코딩/지식 캔버스.canvas",
     "코딩/지식.md",
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/front-end",
