@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "singleton",
-      "path": "코딩/patterns/design-patterns/singleton.md"
-    },
-    {
       "basename": "지식 캔버스",
       "path": "코딩/지식 캔버스.canvas"
     },
@@ -13,20 +9,24 @@
       "path": "코딩/지식.md"
     },
     {
-      "basename": "render",
-      "path": "코딩/react/render.md"
-    },
-    {
-      "basename": "builder-pattern",
-      "path": "코딩/patterns/design-patterns/builder-pattern.md"
+      "basename": "singleton",
+      "path": "코딩/patterns/design-patterns/singleton.md"
     },
     {
       "basename": "observer-pattern",
       "path": "코딩/patterns/design-patterns/observer-pattern.md"
     },
     {
+      "basename": "builder-pattern",
+      "path": "코딩/patterns/design-patterns/builder-pattern.md"
+    },
+    {
       "basename": "facade-pattern",
       "path": "코딩/patterns/design-patterns/facade-pattern.md"
+    },
+    {
+      "basename": "render",
+      "path": "코딩/react/render.md"
     },
     {
       "basename": "README",

@@ -1,11 +1,17 @@
 {
 	"nodes":[
-		{"id":"5562809237eb5e06","type":"file","file":"코딩/지식.md","x":-520,"y":-184,"width":400,"height":400,"color":"1"},
-		{"id":"bc11818b79de1a2f","type":"file","file":"코딩/patterns/design-patterns/facade-pattern.md","x":298,"y":366,"width":400,"height":400},
-		{"id":"45f5bcfd92d180c5","type":"file","file":"코딩/patterns/design-patterns/observer-pattern.md","x":298,"y":-184,"width":400,"height":400}
+		{"id":"5562809237eb5e06","type":"file","file":"코딩/지식.md","x":-280,"y":-240,"width":400,"height":400,"color":"1"},
+		{"id":"c3609f200fea66a8","type":"file","file":"코딩/patterns/design-patterns/facade-pattern.md","x":-2000,"y":-620,"width":400,"height":400},
+		{"id":"a25b1b17300e2f9d","type":"file","file":"코딩/patterns/design-patterns/builder-pattern.md","x":-1920,"y":-1440,"width":400,"height":400},
+		{"id":"10847195ad6b5e72","type":"file","file":"코딩/patterns/design-patterns/observer-pattern.md","x":-1240,"y":-1440,"width":400,"height":400},
+		{"id":"36e9a1b0fbe83120","type":"file","file":"코딩/patterns/design-patterns/singleton.md","x":-636,"y":-1440,"width":400,"height":400},
+		{"id":"8e62cb5c65dc6338","type":"text","text":"design-patterns\n","x":-1090,"y":-560,"width":250,"height":50}
 	],
 	"edges":[
-		{"id":"bb39304d9be478ba","fromNode":"5562809237eb5e06","fromSide":"right","toNode":"45f5bcfd92d180c5","toSide":"left"},
-		{"id":"b178f3afe2cc630c","fromNode":"5562809237eb5e06","fromSide":"right","toNode":"bc11818b79de1a2f","toSide":"left"}
+		{"id":"dd1088278b0b154c","fromNode":"5562809237eb5e06","fromSide":"left","toNode":"8e62cb5c65dc6338","toSide":"right"},
+		{"id":"01695f6760ad5cb9","fromNode":"c3609f200fea66a8","fromSide":"right","toNode":"8e62cb5c65dc6338","toSide":"left"},
+		{"id":"9f65d3acd92e27f1","fromNode":"10847195ad6b5e72","fromSide":"bottom","toNode":"8e62cb5c65dc6338","toSide":"top"},
+		{"id":"c14d5297e2fc1b8e","fromNode":"a25b1b17300e2f9d","fromSide":"right","toNode":"8e62cb5c65dc6338","toSide":"left"},
+		{"id":"a308c8a6b425690f","fromNode":"36e9a1b0fbe83120","fromSide":"bottom","toNode":"8e62cb5c65dc6338","toSide":"top"}
 	]
 }
