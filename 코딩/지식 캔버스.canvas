@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"5562809237eb5e06","type":"file","file":"코딩/프론트엔드 기술 면접 준비.md","x":-520,"y":-184,"width":400,"height":400,"color":"1"},
-		{"id":"bc11818b79de1a2f","x":298,"y":366,"width":400,"height":400,"type":"file","file":"코딩/패턴들/디자인 패턴/Facade Pattern.md"},
-		{"id":"45f5bcfd92d180c5","type":"file","file":"코딩/패턴들/디자인 패턴/Observer Pattern.md","x":298,"y":-184,"width":400,"height":400}
+		{"id":"5562809237eb5e06","type":"file","file":"코딩/지식.md","x":-520,"y":-184,"width":400,"height":400,"color":"1"},
+		{"id":"bc11818b79de1a2f","type":"file","file":"코딩/patterns/design-patterns/facade-pattern.md","x":298,"y":366,"width":400,"height":400},
+		{"id":"45f5bcfd92d180c5","type":"file","file":"코딩/patterns/design-patterns/observer-pattern.md","x":298,"y":-184,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"bb39304d9be478ba","fromNode":"5562809237eb5e06","fromSide":"right","toNode":"45f5bcfd92d180c5","toSide":"left"},

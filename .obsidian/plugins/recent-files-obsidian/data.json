@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Builder Pattern",
-      "path": "코딩/패턴들/디자인 패턴/Builder Pattern.md"
+      "basename": "singleton",
+      "path": "코딩/patterns/design-patterns/singleton.md"
     },
     {
-      "basename": "Observer Pattern",
-      "path": "코딩/패턴들/디자인 패턴/Observer Pattern.md"
+      "basename": "지식 캔버스",
+      "path": "코딩/지식 캔버스.canvas"
     },
     {
-      "basename": "Facade Pattern",
-      "path": "코딩/패턴들/디자인 패턴/Facade Pattern.md"
+      "basename": "지식",
+      "path": "코딩/지식.md"
+    },
+    {
+      "basename": "render",
+      "path": "코딩/react/render.md"
+    },
+    {
+      "basename": "builder-pattern",
+      "path": "코딩/patterns/design-patterns/builder-pattern.md"
+    },
+    {
+      "basename": "observer-pattern",
+      "path": "코딩/patterns/design-patterns/observer-pattern.md"
+    },
+    {
+      "basename": "facade-pattern",
+      "path": "코딩/patterns/design-patterns/facade-pattern.md"
     },
     {
       "basename": "README",

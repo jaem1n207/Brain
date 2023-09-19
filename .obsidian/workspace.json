@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "93d17f3ded47724e",
+        "id": "71b71a4068ac2a38",
         "type": "tabs",
         "children": [
           {
-            "id": "a80cdffa8223c7c5",
+            "id": "e91927b6c5c4cd63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Observer Pattern.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a88d9f88b8fd1eed",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "729f0b461da90162",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "코딩/패턴들/디자인 패턴/Builder Pattern.md",
+                "file": "코딩/patterns/design-patterns/singleton.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Builder Pattern.md",
+                "file": "코딩/patterns/design-patterns/singleton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Builder Pattern.md",
+                "file": "코딩/patterns/design-patterns/singleton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Builder Pattern.md"
+                "file": "코딩/patterns/design-patterns/singleton.md"
               }
             }
           }
@@ -179,17 +161,28 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "729f0b461da90162",
+  "active": "e91927b6c5c4cd63",
   "lastOpenFiles": [
-    "코딩/지식.md",
+    "코딩/cs/database/무제 파일.md",
+    "코딩/patterns/design-patterns/singleton.md",
+    "코딩/cs/database",
+    "코딩/cs/무제 폴더/무제 폴더",
+    "코딩/cs/data-structure",
+    "코딩/cs/network",
+    "코딩/security",
+    "코딩/node",
+    "코딩/accessibility",
+    "코딩/css",
     "코딩/지식 캔버스.canvas",
-    "코딩/리액트/Render.md",
-    "코딩/리액트",
+    "코딩/지식.md",
+    "코딩/react/render.md",
+    "코딩/patterns/design-patterns/builder-pattern.md",
+    "코딩/html",
+    "코딩/javascript",
+    "코딩/patterns/design-patterns/observer-pattern.md",
     "코딩/프론트엔드 기술 면접 준비.md",
     "코딩/이직 캔버스.canvas",
-    "코딩/패턴들/디자인 패턴/Builder Pattern.md",
-    "코딩/패턴들/디자인 패턴/Observer Pattern.md",
-    "코딩/패턴들/디자인 패턴/Facade Pattern.md",
+    "코딩/patterns/design-patterns/facade-pattern.md",
     "README.md"
   ]
 }
