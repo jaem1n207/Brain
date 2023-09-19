@@ -1,17 +1,34 @@
 {
 	"nodes":[
-		{"id":"5562809237eb5e06","type":"file","file":"코딩/지식.md","x":-280,"y":-240,"width":400,"height":400,"color":"1"},
+		{"id":"5562809237eb5e06","type":"file","file":"코딩/지식.md","x":-280,"y":-240,"width":400,"height":400,"color":"4"},
 		{"id":"c3609f200fea66a8","type":"file","file":"코딩/patterns/design-patterns/facade-pattern.md","x":-2000,"y":-620,"width":400,"height":400},
 		{"id":"a25b1b17300e2f9d","type":"file","file":"코딩/patterns/design-patterns/builder-pattern.md","x":-1920,"y":-1440,"width":400,"height":400},
 		{"id":"10847195ad6b5e72","type":"file","file":"코딩/patterns/design-patterns/observer-pattern.md","x":-1240,"y":-1440,"width":400,"height":400},
 		{"id":"36e9a1b0fbe83120","type":"file","file":"코딩/patterns/design-patterns/singleton.md","x":-636,"y":-1440,"width":400,"height":400},
-		{"id":"8e62cb5c65dc6338","type":"text","text":"design-patterns\n","x":-1090,"y":-560,"width":250,"height":50}
+		{"id":"8e62cb5c65dc6338","type":"text","text":"design-patterns\n","x":-1090,"y":-560,"width":250,"height":50,"color":"3"},
+		{"id":"66b4801592fdb4f5","type":"file","file":"코딩/cs/data-structure/tree/binary-search-tree.md","x":1234,"y":-320,"width":400,"height":400},
+		{"id":"dffd3bd139dfabc0","type":"file","file":"코딩/cs/data-structure/tree/binary-tree.md","x":1679,"y":-320,"width":400,"height":400},
+		{"id":"a978f79d06642239","type":"text","text":"cs","x":320,"y":-70,"width":250,"height":60,"color":"3"},
+		{"id":"9ab882f8aeaaffae","type":"text","text":"data-structure","x":570,"y":-510,"width":250,"height":60,"color":"3"},
+		{"id":"554c511589afd393","type":"file","file":"코딩/cs/data-structure/stack & queue.md","x":45,"y":-1040,"width":400,"height":400},
+		{"id":"993c5eee725d8a29","type":"file","file":"코딩/cs/data-structure/hash-table.md","x":495,"y":-1240,"width":400,"height":400},
+		{"id":"5f72c2ec4756af20","type":"file","file":"코딩/cs/data-structure/linked-list.md","x":960,"y":-1040,"width":400,"height":400},
+		{"id":"2ec21fab0331ddac","type":"file","file":"코딩/cs/data-structure/array.md","x":1400,"y":-1040,"width":400,"height":400},
+		{"id":"4891bc4f4e63844a","type":"file","file":"코딩/cs/data-structure/bindary-heap.md","x":760,"y":-210,"width":400,"height":400},
+		{"id":"bfb65fba8f27585c","type":"file","file":"코딩/cs/data-structure/tree/full-binary-tree.md","x":2565,"y":-320,"width":400,"height":400},
+		{"id":"b684620e291210b5","type":"file","file":"코딩/cs/data-structure/tree/complete-binary-tree.md","x":2120,"y":-320,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"dd1088278b0b154c","fromNode":"5562809237eb5e06","fromSide":"left","toNode":"8e62cb5c65dc6338","toSide":"right"},
 		{"id":"01695f6760ad5cb9","fromNode":"c3609f200fea66a8","fromSide":"right","toNode":"8e62cb5c65dc6338","toSide":"left"},
 		{"id":"9f65d3acd92e27f1","fromNode":"10847195ad6b5e72","fromSide":"bottom","toNode":"8e62cb5c65dc6338","toSide":"top"},
 		{"id":"c14d5297e2fc1b8e","fromNode":"a25b1b17300e2f9d","fromSide":"right","toNode":"8e62cb5c65dc6338","toSide":"left"},
-		{"id":"a308c8a6b425690f","fromNode":"36e9a1b0fbe83120","fromSide":"bottom","toNode":"8e62cb5c65dc6338","toSide":"top"}
+		{"id":"a308c8a6b425690f","fromNode":"36e9a1b0fbe83120","fromSide":"bottom","toNode":"8e62cb5c65dc6338","toSide":"top"},
+		{"id":"d8524a9a200d34c6","fromNode":"a978f79d06642239","fromSide":"left","toNode":"5562809237eb5e06","toSide":"right"},
+		{"id":"f60f10885a8a3221","fromNode":"8e62cb5c65dc6338","fromSide":"right","toNode":"5562809237eb5e06","toSide":"left"},
+		{"id":"6d0956af1cb157a6","fromNode":"9ab882f8aeaaffae","fromSide":"bottom","toNode":"a978f79d06642239","toSide":"top"},
+		{"id":"3eb52d1283ae770a","fromNode":"5f72c2ec4756af20","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"top"},
+		{"id":"1cb6e11c79936a5b","fromNode":"993c5eee725d8a29","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"top"},
+		{"id":"6ffc2d745ed12d2d","fromNode":"554c511589afd393","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"left"},
+		{"id":"b45f3778c4ed648d","fromNode":"2ec21fab0331ddac","fromSide":"bottom","toNode":"9ab882f8aeaaffae","toSide":"top"}
 	]
 }

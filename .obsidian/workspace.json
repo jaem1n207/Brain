@@ -15,9 +15,9 @@
               "state": {
                 "file": "코딩/지식 캔버스.canvas",
                 "viewState": {
-                  "x": -285.44673730592876,
-                  "y": -570.4469655000547,
-                  "zoom": -0.8892085528892473
+                  "x": 1394.1754967494344,
+                  "y": -135.327035339267,
+                  "zoom": -1.1239231288433074
                 }
               }
             }
@@ -166,8 +166,20 @@
   },
   "active": "5c96c438f637b2c5",
   "lastOpenFiles": [
-    "코딩/지식.md",
+    "코딩/cs/data-structure/hash-table.md",
+    "코딩/cs/data-structure/bindary-heap.md",
+    "코딩/cs/data-structure/tree/complete-binary-tree.md",
+    "코딩/cs/data-structure/tree/full-binary-tree.md",
+    "코딩/cs/data-structure/tree/binary-tree.md",
+    "코딩/cs/data-structure/tree/binary-search-tree.md",
+    "코딩/cs/data-structure/tree",
+    "코딩/cs/data-structure/binary-search-tree.md",
+    "코딩/cs/data-structure/tree.md",
+    "코딩/cs/data-structure/stack & queue.md",
+    "코딩/cs/data-structure/linked-list.md",
+    "코딩/cs/data-structure/array.md",
     "코딩/지식 캔버스.canvas",
+    "코딩/지식.md",
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/front-end",
     "코딩/coding",
@@ -179,7 +191,6 @@
     "코딩/cs/data-structure",
     "코딩/cs/network",
     "코딩/security",
-    "코딩/node",
     "코딩/react/render.md",
     "코딩/patterns/design-patterns/builder-pattern.md",
     "코딩/patterns/design-patterns/observer-pattern.md",
