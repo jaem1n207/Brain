@@ -8,7 +8,7 @@
 		{"id":"8e62cb5c65dc6338","type":"text","text":"design-patterns\n","x":-1090,"y":-560,"width":250,"height":50,"color":"3"},
 		{"id":"a978f79d06642239","type":"text","text":"cs","x":320,"y":-70,"width":250,"height":60,"color":"3"},
 		{"id":"9ab882f8aeaaffae","type":"text","text":"data-structure","x":1035,"y":-450,"width":250,"height":60,"color":"3"},
-		{"id":"2ec21fab0331ddac","type":"file","file":"코딩/cs/data-structure/array.md","x":1790,"y":-1440,"width":400,"height":400},
+		{"id":"2ec21fab0331ddac","type":"file","file":"코딩/cs/data-structure/array & linked-list.md","x":1790,"y":-1440,"width":400,"height":400},
 		{"id":"554c511589afd393","type":"file","file":"코딩/cs/data-structure/stack & queue.md","x":435,"y":-1440,"width":400,"height":400},
 		{"id":"993c5eee725d8a29","type":"file","file":"코딩/cs/data-structure/hash-table.md","x":885,"y":-1640,"width":400,"height":400},
 		{"id":"5f72c2ec4756af20","type":"file","file":"코딩/cs/data-structure/linked-list.md","x":1350,"y":-1440,"width":400,"height":400},
