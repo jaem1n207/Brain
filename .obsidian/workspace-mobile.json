@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/패턴들/디자인 패턴/Observer Pattern.md",
+                "file": "코딩/patterns/design-patterns/facade-pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "코딩/패턴들/디자인 패턴/Observer Pattern.md",
+            "file": "코딩/patterns/design-patterns/facade-pattern.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "코딩/패턴들/디자인 패턴/Observer Pattern.md",
+            "file": "코딩/patterns/design-patterns/facade-pattern.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "코딩/패턴들/디자인 패턴/Observer Pattern.md"
+            "file": "코딩/patterns/design-patterns/facade-pattern.md"
           }
         }
       }
@@ -142,6 +142,19 @@
   },
   "active": "ae94523785639253",
   "lastOpenFiles": [
+    "코딩/patterns/design-patterns/singleton.md",
+    "코딩/지식 캔버스.canvas",
+    "코딩/react/render.md",
+    "코딩/지식.md",
+    "코딩/cs/data-structure/hash-table.md",
+    "코딩/cs/data-structure/tree/binary-search-tree.md",
+    "코딩/cs/data-structure/linked-list.md",
+    "코딩/cs/data-structure/tree/binary-tree.md",
+    "코딩/cs/data-structure/tree/complete-binary-tree.md",
+    "코딩/cs/data-structure/tree/full-binary-tree.md",
+    "코딩/cs/data-structure/stack & queue.md",
+    "코딩/cs/data-structure/array.md",
+    "코딩/cs/data-structure/bindary-heap.md",
     "코딩/패턴들/디자인 패턴/Facade Pattern.md",
     "코딩/패턴들/디자인 패턴/Builder Pattern.md",
     "LICENSE",
