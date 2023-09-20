@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "hash-table",
-      "path": "코딩/cs/data-structure/hash-table.md"
-    },
-    {
       "basename": "facade-pattern",
       "path": "코딩/patterns/design-patterns/facade-pattern.md"
+    },
+    {
+      "basename": "hash-table",
+      "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
       "basename": "singleton",
