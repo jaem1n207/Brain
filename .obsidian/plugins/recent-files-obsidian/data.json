@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "hash-table",
+      "path": "코딩/cs/data-structure/hash-table.md"
+    },
+    {
+      "basename": "binary-search-tree",
+      "path": "코딩/cs/data-structure/tree/binary-search-tree.md"
+    },
+    {
+      "basename": "bindary-heap",
+      "path": "코딩/cs/data-structure/bindary-heap.md"
+    },
+    {
       "basename": "array & linked-list",
       "path": "코딩/cs/data-structure/array & linked-list.md"
     },
@@ -9,16 +21,8 @@
       "path": "코딩/cs/data-structure/tree/full-binary-tree.md"
     },
     {
-      "basename": "binary-search-tree",
-      "path": "코딩/cs/data-structure/tree/binary-search-tree.md"
-    },
-    {
       "basename": "stack & queue",
       "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
-      "basename": "bindary-heap",
-      "path": "코딩/cs/data-structure/bindary-heap.md"
     },
     {
       "basename": "binary-tree",
@@ -31,10 +35,6 @@
     {
       "basename": "프로세스와 스레드의 차이",
       "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
-    },
-    {
-      "basename": "hash-table",
-      "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
       "basename": "facade-pattern",

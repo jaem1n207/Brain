@@ -6,5 +6,5 @@ key  => value lookup
 "barb" => new Person(q=140, name='hacky')
 ```
 
-따라서 키가 주어지면<mark style="background: #ADCCFFA6;"> 매우 빠른 조회</mark>를 위해 값을 키와 연결하는 방법을 제공합니다.
+따라서 키가 주어지면 **매우 빠른 조회**를 위해 값을 키와 연결하는 방법을 제공합니다.
 
