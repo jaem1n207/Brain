@@ -154,7 +154,10 @@ console.log(`isBalancedTokens('[')`, isBalancedTokens("[")) // false
 
 - [I] 큐는 **순서대로 처리해야 하는 작업을 임시로 저장해두는 버퍼**로서 많이 사용됩니다.
 
-아래는 큐를 구현한 코드와 사용한 예시 한 가지입니다.
+아래는 큐를 구현한 코드와 큐를 이용해 힙 자료구조를 구현하는 코드입니다.
+
+> [!NOTE] 알아두어야 할 것
+> 힙에는 큐에서 지원되지 않는 구조적인 속성(완전 이진 트리)와 작업(힙파이)이 있기 때문에 큐를 사용해서 힙을 구현하는 게 일반적이진 않습니다. 하지만 큐를 사용하여 트리의 레벨 순서대로 선회하고 힙 속성을 유지함으로써 어느 정도 구현할 수 있습니다. 예시 코드에서는 두 개의 큐를 사용해서 Min-Heap 자료구조를 구현합니다.
 ### 코드
 ```js
 class Queue {
@@ -191,6 +194,110 @@ console.log(queue.isEmpty()) // true
 console.log(queue.dequeue()) // undefined
 ```
 ### Queue로 Heap 자료구조 구현해보기
+```js
+class MinHeap {
+  constructor() {
+    this.queue = []
+
+    this.size = 0
+  }
+
+  insert(value) {
+    this.queue.push(value)
+
+    this.size++
+
+    this.bubbleUp()
+  }
+
+  extractMin() {
+    if (this.size === 0) {
+      throw new Error("Heap is empty")
+    }
+
+    const min = this.queue[0]
+
+    this.queue[0] = this.queue[this.size - 1]
+
+    this.queue.pop()
+
+    this.size--
+
+    this.bubbleDown(0)
+
+    return min
+  }
+
+  // 삽입 후 힙 속성을 유지하기 위한 헬퍼 메서드
+  bubbleUp() {
+    let index = this.size - 1
+
+    while (index > 0) {
+      let parentIndex = Math.floor((index - 1) / 2)
+
+      if (this.queue[index] < this.queue[parentIndex]) {
+        ;[this.queue[index], this.queue[parentIndex]] = [
+          this.queue[parentIndex],
+          this.queue[index],
+        ]
+
+        index = parentIndex
+      } else {
+        break
+      }
+    }
+  }
+
+  // 추출 후 힙 속성을 유지하기 위한 헬퍼 메서드
+  bubbleDown(index) {
+    while (true) {
+      let leftChildIdx = 2 * index + 1
+
+      let rightChildIdx = 2 * index + 2
+
+      let swapIdx = null
+
+      if (
+        leftChildIdx < this.size &&
+        this.queue[leftChildIdx] < this.queue[index]
+      ) {
+        swapIdx = leftChildIdx
+      }
+
+      if (
+        rightChildIdx < this.size &&
+        this.queue[rightChildIdx] <
+          (swapIdx === null ? this.queue[index] : this.queue[leftChildIdx])
+      ) {
+        swapIdx = rightChildIdx
+      }
+
+      if (swapIdx === null) break
+
+      ;[this.queue[index], this.queue[swapIdx]] = [
+        this.queue[swapIdx],
+        this.queue[index],
+      ]
+
+      index = swapIdx
+    }
+  }
+}
+
+const heap = new MinHeap()
+
+heap.insert(5)
+
+heap.insert(2)
+
+heap.insert(8)
+
+heap.insert(1)
+
+console.log(heap.extractMin()) // 1
+console.log(heap.extractMin()) // 2
+
+```
 
 ## 참고
 - [HackerRank Youtube Channel](https://www.youtube.com/watch?v=IhJGJG-9Dx8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=1&ab_channel=HackerRank)
