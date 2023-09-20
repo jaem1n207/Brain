@@ -5,6 +5,10 @@
       "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
+      "basename": "array",
+      "path": "코딩/cs/data-structure/array.md"
+    },
+    {
       "basename": "linked-list",
       "path": "코딩/cs/data-structure/linked-list.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "facade-pattern",
       "path": "코딩/patterns/design-patterns/facade-pattern.md"
-    },
-    {
-      "basename": "array",
-      "path": "코딩/cs/data-structure/array.md"
     },
     {
       "basename": "full-binary-tree",

@@ -236,12 +236,9 @@ class MinHeap {
       let parentIndex = Math.floor((index - 1) / 2)
 
       if (this.queue[index] < this.queue[parentIndex]) {
-        ;[this.queue[index], this.queue[parentIndex]] = [
-          this.queue[parentIndex],
-          this.queue[index],
-        ]
-
-        index = parentIndex
+		 [this.queue[index], this.queue[parentIndex]] = [
+		  this.queue[parentIndex], this.queue[index]];
+		  index = parentIndex
       } else {
         break
       }
