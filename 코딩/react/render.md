@@ -17,12 +17,14 @@ Next.js는 서버에서 HTML을 문자열로 가져온(ReactDOMServer.renderToSt
 React는 클라이언트 렌더링만 있어서 유저에게 보여줄 HTML, CSS 그리고 JS 모두 `render()`함수를 이용해 생성하여, React가 어떤 DOM을 렌더하는지 알려줍니다.
 반면, Next.js는 서버에서 보여줄 HTML 컨텐츨르 가져오기 때문에 재차 `render()`함수로 HTML을 생성하여 DOM을 그리는 일은 비효율적입니다. 따라서 `hydrate()`함수로 서버에서 받아온 HTML에 유저가 상호작용할 수 있는 이벤트 리스너만 연결하는 것입니다.
 
-|           | webpack | webpack:{lazyCompilation: entries: false} |   vite  | 
-|:--------- | ------- | ---- | --- |
-| lazy-5000 | 18s     | 0.7s  |     18s|
-| lazy-1000 |         |      |     |
-| 5000      |         |      |     |
-| 1000      |         |      |     |
+아래 표는 3번의 시도 중 평균값을 구한 값입니다.
+
+|           | webpack | webpack:{lazyCompilation: entries: false} | vite |
+|:--------- | ------- | ----------------------------------------- | ---- |
+| lazy-5000 | 20s     | 0.7s                                      | 18s  |
+| lazy-1000 |         |                                           |      |
+| 5000      |         |                                           |      |
+| 1000      |         |                                           |      |
 
 ### 참고
 - [Hydration](https://velog.io/@pjh1011409/React-Query-HydrationSSR)
