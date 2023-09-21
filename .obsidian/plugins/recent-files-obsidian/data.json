@@ -5,6 +5,10 @@
       "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
+    },
+    {
       "basename": "binary-search-tree",
       "path": "코딩/cs/data-structure/tree/binary-search-tree.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "full-binary-tree",
       "path": "코딩/cs/data-structure/tree/full-binary-tree.md"
-    },
-    {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
       "basename": "binary-tree",

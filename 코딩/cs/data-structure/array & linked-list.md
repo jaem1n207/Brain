@@ -35,11 +35,115 @@ tags:
 ## Linked List
 메모리에 저장된 물리적 위치나 순서에 상관없이, **링크**에 의해 논리적인 순서를 표현하는 자료구조입니다. 즉, 논리적 저장 순서와 물리적 저장 순서가 일치하지 않습니다. 각각의 원소들은 자기 자신 다음에 어떤 원소인지만을 기억하고 있습니다.
 ### 탐색
-Array와는 달리 논리적 저장 순서와 물리적 저장 순서가 일치하지 않으므로 첫 번째 원소부터 하나씩 인덱스를 증가시키며 다 확인해봐야 합니다. 이 경우의 시간 복잡도는 O(n)이 됩니다.
+Array와는 달리 논리적 저장 순서와 물리적 저장 순서가 일치하지 않으므로 첫 번째 원소(헤드)부터 하나씩 인덱스를 증가시키며 다 확인해봐야 합니다. 이 경우의 시간 복잡도는 O(n)이 됩니다.
 ### 삽입 및 삭제
 각각의 원소들은 자기 자신 다음에 어떤 원소인지만을 기억하고 있습니다. 따라서 이 부분만 다른 값으로 바꿔주면 삭제와 삽입을 O(1)만에 해결할 수 있습니다.
 하지만 원하는 위치에 삽입을 하고자 한다면 위치를 탐색하는 과정에 있어서 첫 번째 원소부터 다 확인해봐야 합니다. 따라서 그 원소를 찾기 위해서 O(n)의 시간이 추가적으로 발생하게 됩니다.
 
+### 코드
+아래는 LinkedList를 ArrayList를 활용해 간단히 구현한 코드 예시입니다. ArrayList를 사용해서 LinkedList를 구현하려면 노드 값과 해당 `links` 또는 다음 노드에 대한 포인터를 추적해야 하는 게 핵심입니다.
+```js
+class ArrayList {
+  constructor() {
+    this.data = []
+  }
+
+  add(item) {
+    this.data.push(item)
+  }
+
+  get(index) {
+    return this.data[index]
+  }
+
+  size() {
+    return this.data.length
+  }
+
+  removeAt(index) {
+    return this.data.splice(index, 1)
+  }
+}
+
+class LinkedList {
+  constructor() {
+    this.list = new ArrayList()
+  }
+
+  append(value) {
+    const newNode = { value, next: null }
+
+    const size = this.list.size()
+
+    if (size === 0) {
+      this.list.add(newNode)
+    } else {
+      const lastNode = this.list.get(size - 1)
+
+      lastNode.next = size
+
+      this.list.add(newNode)
+    }
+  }
+
+  delete(value) {
+    const size = this.list.size()
+
+    for (let i = 0; i < size; i++) {
+      const node = this.list.get(i)
+
+      if (node.value === value) {
+        this.list.removeAt(i)
+
+        for (let j = i; j < this.list.size(); j++) {
+          const nextNode = this.list.get(j)
+
+          if (nextNode.next !== null) nextNode.next--
+        }
+
+        return
+      }
+    }
+  }
+
+  print() {
+    let currentNodeIndex = 0
+
+    while (currentNodeIndex !== null && currentNodeIndex < this.list.size()) {
+      const node = this.list.get(currentNodeIndex)
+
+      console.log(node.value)
+
+      currentNodeIndex = node.next
+    }
+  }
+}
+
+const linkedList = new LinkedList()
+
+linkedList.append(1)
+linkedList.append(2)
+linkedList.append(3)
+linkedList.append(4)
+linkedList.delete(2)
+linkedList.print() // Outputs: 1, 3, 4
+```
+
+추가로 만약 LinkedList에 루프가 있다는 것을 확인하고 싶다면 아래처럼 구현 해볼 수 있겠습니다. (이는 의사코드며 실제로 동작하지 않습니다)
+```js
+export function hasCycle(linkedList) {
+  let slowPointer = linkedList.list.get(0)
+  let fastPointer = linkedList.list.get(1)
+
+  while (fastPointer?.next != null && slowPointer != null) {
+    if (fastPointer === slowPointer) return true
+    slowPointer = linkedList.list.get(slowPointer.next)
+    fastPointer = linkedList.list.get(fastPointer.next?.next)
+  }
+
+  return false
+}
+```
 ## Array와 Linked List 비교
 **Array**가 **추가** 및 **삭제** 부분에서 더 효율적이라면, **탐색**은 **Linked List**가 더 효율적입니다.
 
