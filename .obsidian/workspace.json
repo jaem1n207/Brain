@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/data-structure/tree/tree.md",
+                "file": "코딩/cs/data-structure/hash-table.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/data-structure/tree/tree.md",
+                "file": "코딩/cs/data-structure/hash-table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/data-structure/tree/tree.md",
+                "file": "코딩/cs/data-structure/hash-table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/data-structure/tree/tree.md"
+                "file": "코딩/cs/data-structure/hash-table.md"
               }
             }
           }
@@ -164,8 +164,9 @@
   },
   "active": "ddf46fa49bb712bb",
   "lastOpenFiles": [
+    "코딩/cs/data-structure/tree.md",
+    "코딩/cs/data-structure/bindary-heap.md",
     "Excalidraw/cs/data-structure/tree/traversing.md",
-    "코딩/cs/data-structure/tree/tree.md",
     "코딩/cs/data-structure/tree/complete-binary-tree.md",
     "코딩/cs/data-structure/tree/binary-tree.md",
     "코딩/cs/data-structure/tree/binary-search-tree.md",
@@ -194,7 +195,6 @@
     "무제 파일.canvas",
     "코딩/cs/data-structure/hash-table.md",
     "코딩/front-end/왜 webpack에서 vite로 전환하였는가?.md",
-    "코딩/cs/data-structure/bindary-heap.md",
     "코딩/cs/data-structure/tree/full-binary-tree.md",
     "코딩/cs/data-structure/무제 파일.md",
     "코딩/cs/os/프로세스와 스레드의 차이.md",
@@ -202,7 +202,6 @@
     "코딩/patterns/design-patterns/facade-pattern.md",
     "코딩/지식 캔버스.canvas",
     "코딩/cs/data-structure/binary-search-tree.md",
-    "코딩/cs/data-structure/tree.md",
     "코딩/지식.md",
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/cs/database/무제 파일.md",
