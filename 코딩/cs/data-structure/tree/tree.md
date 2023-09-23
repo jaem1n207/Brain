@@ -16,7 +16,7 @@ tags:
 - Height (높이): Root Node에서 Leaf Node까지 가장 긴 경로의 Edge 수를 의미합니다. (트리의 최고 Level)
 - Size (크기): Node의 개수입니다.
 
-![[Excalidraw/tree]]
+![[tree.light.svg]]
 
 ### 트리가 될 수 없는 경우
 1. Node의 Edge가 자기 자신을 향하는 경우
@@ -28,6 +28,7 @@ tags:
 - Binary Tree (이진 트리): 각 노드가 최대 2개의 자식을 가질 수 있는 트리입니다. 일반적으로 left child와 right child라고 합니다.
 - Binary Search Tree (BST): Binary Tree의 일종으로 데이터를 저장하는데 특정 규칙을 갖는 이진 트리입니다.
 - Balanced Binary Search Trees (AVL Trees, Red-Black Trees): 트리 작업(탐색, 삽입, 삭제)이 O(log n)의 시간 복잡도를 가지도록 Balance를 유지하는 BST를 기반으로 하는 트리 형식의 자료 구조입니다.
+![[unbalanced-tree.light.svg]]
 - Heap (힙):힙 속성(최소 힙, 최대 힙)을 충족하는 특수한 트리 기반 자료 구조입니다.
 
 ### 왜 트리를 사용하는가
@@ -38,6 +39,7 @@ tags:
 - 균형이 유지된 트리: 여러 작업에 O(log n)의 시간 복잡도가 소요되므로 데이터베이스 인덱싱에 매우 유용합니다.
 
 ### 순회 기술
-- In-Order (LNR): 왼쪽 가지, 현재 노드, 오른쪽 가지 순서로 
-- Pre-Order (NLR):
-- Post-Order (LRN)
+![[traversing.svg]]
+- In-Order (LNR): 왼쪽 가지, 현재 노드, 오른쪽 가지 순서로 노드를 방문하고 출력하는 방법입니다. none-descreasing 순서로 노드를 가져오기 위해 BST에 주로 사용됩니다.
+- Pre-Order (NLR): 자식 노드보다 현재 노드를 먼저 방문합니다. 항상 루트 노드를 가장 먼저 방문합니다. 트리의 복사본을 만드는 데 유용합니다.
+- Post-Order (LRN): 파일 시스템, 데이터베이스에서 노드를 삭제하거나 해제하는 데 유용합니다.

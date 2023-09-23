@@ -54,7 +54,7 @@
   "keepInSync": false,
   "autoexportSVG": true,
   "autoexportPNG": false,
-  "autoExportLightAndDark": true,
+  "autoExportLightAndDark": false,
   "autoexportExcalidraw": false,
   "embedType": "excalidraw",
   "embedWikiLink": true,
