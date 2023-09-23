@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md",
+                "file": "코딩/cs/data-structure/tree/tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c709c1eee37397a8",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md",
+                "file": "코딩/cs/data-structure/tree/tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md",
+                "file": "코딩/cs/data-structure/tree/tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md"
+                "file": "코딩/cs/data-structure/tree/tree.md"
               }
             }
           }
@@ -182,8 +181,10 @@
   },
   "active": "ddf46fa49bb712bb",
   "lastOpenFiles": [
-    "코딩/cs/data-structure/stack & queue.md",
+    "무제 파일.canvas",
+    "코딩/cs/data-structure/tree/tree.md",
     "코딩/cs/data-structure/array & linked-list.md",
+    "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/tree/binary-search-tree.md",
     "코딩/cs/data-structure/hash-table.md",
     "코딩/front-end/왜 webpack에서 vite로 전환하였는가?.md",
