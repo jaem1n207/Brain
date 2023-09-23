@@ -25,10 +25,6 @@
       "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
-      "basename": "binary-search-tree",
-      "path": "코딩/cs/data-structure/tree/binary-search-tree.md"
-    },
-    {
       "basename": "array & linked-list",
       "path": "코딩/cs/data-structure/array & linked-list.md"
     },
@@ -39,18 +35,6 @@
     {
       "basename": "bindary-heap",
       "path": "코딩/cs/data-structure/bindary-heap.md"
-    },
-    {
-      "basename": "full-binary-tree",
-      "path": "코딩/cs/data-structure/tree/full-binary-tree.md"
-    },
-    {
-      "basename": "binary-tree",
-      "path": "코딩/cs/data-structure/tree/binary-tree.md"
-    },
-    {
-      "basename": "complete-binary-tree",
-      "path": "코딩/cs/data-structure/tree/complete-binary-tree.md"
     },
     {
       "basename": "프로세스와 스레드의 차이",

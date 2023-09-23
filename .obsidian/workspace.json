@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "09ad7d1c58eec4ab",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0450b1d660d6372a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/cs/data-structure/tree/traversing.md"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -180,8 +164,11 @@
   },
   "active": "ddf46fa49bb712bb",
   "lastOpenFiles": [
-    "Excalidraw/cs/data-structure/tree/traversing.md",
+    "코딩/cs/data-structure/tree/complete-binary-tree.md",
     "코딩/cs/data-structure/tree/tree.md",
+    "코딩/cs/data-structure/tree/binary-tree.md",
+    "코딩/cs/data-structure/tree/binary-search-tree.md",
+    "Excalidraw/cs/data-structure/tree/traversing.md",
     "code-playground/data-structures/tree/is-bst.mjs",
     "code-playground/data-structures/tree/binary-search-tree.mjs",
     "code-playground/data-structures/stack/stack.mjs",
@@ -203,7 +190,6 @@
     "Excalidraw/cs/data-structure/tree/unbalanced-tree.svg",
     "Excalidraw/cs/data-structure/tree/tree.md",
     "코딩/cs/data-structure/stack & queue.md",
-    "코딩/cs/data-structure/tree/binary-search-tree.md",
     "코딩/cs/data-structure/array & linked-list.md",
     "무제 파일.canvas",
     "코딩/cs/data-structure/hash-table.md",
@@ -211,8 +197,6 @@
     "코딩/cs/data-structure/bindary-heap.md",
     "코딩/cs/data-structure/tree/full-binary-tree.md",
     "코딩/cs/data-structure/무제 파일.md",
-    "코딩/cs/data-structure/tree/binary-tree.md",
-    "코딩/cs/data-structure/tree/complete-binary-tree.md",
     "코딩/cs/os/프로세스와 스레드의 차이.md",
     "코딩/cs/data-structure/linked-list.md",
     "코딩/patterns/design-patterns/facade-pattern.md",

@@ -43,6 +43,12 @@ tags:
 - In-Order (LNR): 왼쪽 가지, 현재 노드, 오른쪽 가지 순서로 노드를 방문하고 출력하는 방법입니다. none-descreasing 순서로 노드를 가져오기 위해 BST에 주로 사용됩니다.
 - Pre-Order (NLR): 자식 노드보다 현재 노드를 먼저 방문합니다. 항상 루트 노드를 가장 먼저 방문합니다. 트리의 복사본을 만드는 데 유용합니다.
 - Post-Order (LRN): 파일 시스템, 데이터베이스에서 노드를 삭제하거나 해제하는 데 유용합니다.
+
+## Binary Tree (이진 트리)
+- 정의: 모든 노드가 최대 2개의 자식을 갖는 트리입니다.
+- 특징: 왼쪽 또는 오른쪽 노드로 분류됩니다.
+- 시간 복잡도: 
+
 ## 코드
 ### Binary Search Tree
 ```js
@@ -293,5 +299,8 @@ console.log(isBST(root)) // true
 root.right.left.left = new TreeNode(10) // 10은 이제 60의 왼쪽에 있으므로 이진 탐색 트리의 조건을 만족하지 않습니다
 
 console.log(isBST(root)) // false
-
 ```
+
+## 참고
+- [Hackerrank Youtube Channel](https://www.youtube.com/@HackerrankOfficial)
+- [jbee/interview_question_for_beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/master/DataStructure/README.md#tree)
