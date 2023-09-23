@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "graph",
+      "path": "코딩/cs/data-structure/graph.md"
+    },
+    {
       "basename": "hash-table",
       "path": "코딩/cs/data-structure/hash-table.md"
     },
@@ -10,11 +14,15 @@
     },
     {
       "basename": "traversing",
-      "path": "Excalidraw/cs/data-structure/tree/traversing.md"
+      "path": "Excalidraw/cs/data-structure/tree/traversing.svg"
     },
     {
       "basename": "tree",
       "path": "Excalidraw/cs/data-structure/tree/tree.svg"
+    },
+    {
+      "basename": "traversing",
+      "path": "Excalidraw/cs/data-structure/tree/traversing.md"
     },
     {
       "basename": "unbalanced-tree",
