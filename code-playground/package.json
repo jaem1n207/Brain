@@ -1,0 +1,23 @@
+{
+  "name": "brain",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "index.js",
+  "scripts": {
+    "queue": "node data-structures/queue/queue.mjs",
+    "queue:heap": "node data-structures/queue/heap.mjs",
+    "stack": "node data-structures/stack/stack.mjs",
+    "stack:queue": "node data-structures/stack/queue.mjs",
+    "stack:is-balanced-tokens": "node data-structures/stack/is-balanced-tokens.mjs",
+    "array:linked-list-based-array": "node data-structures/array/linked-list-based-array.mjs",
+    "array-linked-list-based-array-list": "node data-structures/array/linked-list-based-array-list.mjs",
+    "tree-binary-search-tree": "node data-structures/tree/binary-search-tree.mjs",
+    "tree-is-bst": "node data-structures/tree/is-bst.mjs"
+  },
+  "keywords": [
+    "data-structures"
+  ],
+  "author": "jaem1n207",
+  "license": "MIT",
+  "dependencies": {}
+}
