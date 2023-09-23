@@ -36,6 +36,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c610238e51eb6d28",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/tree.md"
+              }
+            }
           }
         ]
       }
@@ -176,13 +186,16 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "markdown-importer:마크다운 형식 가져오기 열기": false
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "ddf46fa49bb712bb",
   "lastOpenFiles": [
-    "무제 파일.canvas",
+    "Excalidraw/tree.md",
     "코딩/cs/data-structure/tree/tree.md",
+    "Excalidraw",
+    "무제 파일.canvas",
     "코딩/cs/data-structure/array & linked-list.md",
     "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/tree/binary-search-tree.md",
@@ -211,7 +224,6 @@
     "코딩/cs/database",
     "코딩/cs/무제 폴더/무제 폴더",
     "코딩/cs/data-structure",
-    "코딩/cs/network",
     "코딩/react/render.md",
     "코딩/patterns/design-patterns/builder-pattern.md",
     "코딩/patterns/design-patterns/observer-pattern.md",
