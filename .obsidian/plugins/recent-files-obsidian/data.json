@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree/tree.md"
+    },
+    {
       "basename": "traversing",
       "path": "Excalidraw/cs/data-structure/tree/traversing.md"
     },
     {
       "basename": "tree",
-      "path": "코딩/cs/data-structure/tree/tree.md"
+      "path": "Excalidraw/cs/data-structure/tree/tree.svg"
     },
     {
       "basename": "unbalanced-tree",
@@ -19,14 +23,6 @@
     {
       "basename": "stack & queue",
       "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
-      "basename": "tree.dark",
-      "path": "Excalidraw/cs/data-structure/tree/tree.dark.svg"
-    },
-    {
-      "basename": "tree.light",
-      "path": "Excalidraw/cs/data-structure/tree/tree.light.svg"
     },
     {
       "basename": "binary-search-tree",

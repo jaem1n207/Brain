@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/cs/data-structure/tree/traversing.md",
+                "file": "코딩/cs/data-structure/tree/tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/cs/data-structure/tree/traversing.md",
+                "file": "코딩/cs/data-structure/tree/tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/cs/data-structure/tree/traversing.md"
+                "file": "코딩/cs/data-structure/tree/tree.md"
               }
             }
           }
@@ -178,24 +178,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0450b1d660d6372a",
+  "active": "ddf46fa49bb712bb",
   "lastOpenFiles": [
-    "코딩/cs/data-structure/tree/tree.md",
     "Excalidraw/cs/data-structure/tree/traversing.md",
+    "코딩/cs/data-structure/tree/tree.md",
+    "tree.light.svg.md",
+    "Excalidraw/cs/data-structure/tree/unbalanced-tree.dark.svg",
+    "Excalidraw/cs/data-structure/tree/unbalanced-tree.light.svg",
+    "Excalidraw/cs/data-structure/tree/tree.dark.svg",
+    "Excalidraw/cs/data-structure/tree/tree.svg",
+    "Excalidraw/cs/data-structure/tree/tree.light.svg",
     "Excalidraw/cs/data-structure/tree/unbalanced-tree.md",
     "Excalidraw/cs/data-structure/tree/traversing.svg",
     "Excalidraw/cs/data-structure/tree/unbalanced-tree.svg",
-    "Excalidraw/cs/data-structure/tree/tree.svg",
     "Excalidraw/cs/data-structure/tree/tree.md",
     "코딩/cs/data-structure/stack & queue.md",
-    "Excalidraw/cs/data-structure/tree/unbalanced-tree.light.svg",
-    "Excalidraw/cs/data-structure/tree/unbalanced-tree.dark.svg",
-    "Excalidraw/cs/data-structure/tree/tree.dark.svg",
     "Excalidraw/cs/data-structure/tree",
     "Excalidraw/cs/data-structure",
     "Excalidraw/cs",
     "Excalidraw/tree",
-    "Excalidraw/cs/data-structure/tree/tree.light.svg",
     "코딩/cs/data-structure/tree/binary-search-tree.md",
     "코딩/cs/data-structure/array & linked-list.md",
     "Excalidraw",
