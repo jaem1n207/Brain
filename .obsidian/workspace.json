@@ -47,8 +47,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/tree.md",
+                "file": "코딩/cs/data-structure/tree/tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/tree.md",
+                "file": "코딩/cs/data-structure/tree/tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/tree.md"
+                "file": "코딩/cs/data-structure/tree/tree.md"
               }
             }
           }
@@ -191,15 +190,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c610238e51eb6d28",
+  "active": "ddf46fa49bb712bb",
   "lastOpenFiles": [
+    "코딩/cs/data-structure/tree/binary-search-tree.md",
+    "코딩/cs/data-structure/array & linked-list.md",
     "코딩/cs/data-structure/tree/tree.md",
     "Excalidraw/tree.md",
-    "코딩/cs/data-structure/tree/binary-search-tree.md",
+    "Excalidraw/tree.light.svg",
+    "Excalidraw/tree.dark.svg",
     "코딩/cs/data-structure/stack & queue.md",
     "Excalidraw",
     "무제 파일.canvas",
-    "코딩/cs/data-structure/array & linked-list.md",
     "코딩/cs/data-structure/hash-table.md",
     "코딩/front-end/왜 webpack에서 vite로 전환하였는가?.md",
     "코딩/프론트엔드",

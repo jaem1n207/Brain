@@ -2,10 +2,6 @@
   "recentFiles": [
     {
       "basename": "tree",
-      "path": "Excalidraw/tree.md"
-    },
-    {
-      "basename": "tree",
       "path": "코딩/cs/data-structure/tree/tree.md"
     },
     {
@@ -13,12 +9,16 @@
       "path": "코딩/cs/data-structure/tree/binary-search-tree.md"
     },
     {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
       "basename": "array & linked-list",
       "path": "코딩/cs/data-structure/array & linked-list.md"
+    },
+    {
+      "basename": "tree",
+      "path": "Excalidraw/tree.md"
+    },
+    {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
       "basename": "hash-table",
