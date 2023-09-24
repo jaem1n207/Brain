@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "hash-table",
+      "path": "코딩/cs/data-structure/hash-table.md"
+    },
+    {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "stack & queue",
       "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
-      "basename": "hash-table",
-      "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
       "basename": "graph",
