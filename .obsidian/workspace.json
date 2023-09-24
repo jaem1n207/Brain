@@ -16,8 +16,19 @@
                 "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md"
               }
             }
+          },
+          {
+            "id": "5ce679c4a32aee91",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "95903168430254fc",
@@ -115,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
+                "file": "코딩/cs/data-structure/tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
+                "file": "코딩/cs/data-structure/tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md"
+                "file": "코딩/cs/data-structure/tree.md"
               }
             }
           }
@@ -178,16 +189,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf4ad544f2fc91c4",
+  "active": "53f5315f751bcd7e",
   "lastOpenFiles": [
-    "Excalidraw/cs/data-structure/tree/min-heap-delete.md",
-    "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md",
     "코딩/cs/data-structure/tree.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete.md",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-1.svg",
     "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.29.45.excalidraw.svg",
     "Excalidraw/cs/data-structure/tree/무제 파일.md",
     "Excalidraw/cs/data-structure/tree/min-heap-delete.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",
     "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md",
     "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.md",
     "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.26.06.excalidraw.svg",
@@ -227,7 +239,6 @@
     "코딩/cs/data-structure/linked-list.md",
     "코딩/patterns/design-patterns/facade-pattern.md",
     "코딩/지식 캔버스.canvas",
-    "코딩/cs/data-structure/binary-search-tree.md",
     "코딩/이직 캔버스.canvas"
   ]
 }

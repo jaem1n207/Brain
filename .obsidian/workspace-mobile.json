@@ -143,6 +143,18 @@
   },
   "active": "ae94523785639253",
   "lastOpenFiles": [
+    "Excalidraw/cs/data-structure/tree/min-heap.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md",
+    "Excalidraw/cs/data-structure/tree/min-heap.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-insert-before.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-1.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
     "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/graph.md",
@@ -177,11 +189,6 @@
     "코딩/cs/data-structure/tree/full-binary-tree.md",
     "코딩/cs/data-structure/array.md",
     "코딩/cs/data-structure/bindary-heap.md",
-    "코딩/패턴들/디자인 패턴/Facade Pattern.md",
-    "코딩/패턴들/디자인 패턴/Builder Pattern.md",
-    "코딩/프론트엔드 기술 면접 준비.md",
-    "README.md",
-    "코딩/이직 캔버스.canvas",
-    "코딩/패턴들/디자인 패턴/Observer Pattern.md"
+    "코딩/이직 캔버스.canvas"
   ]
 }
