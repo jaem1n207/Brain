@@ -429,7 +429,8 @@ function heapifyDown() {
   while (this.hasLeftChild(index)) {
     // 자식 중 더 작은 노드의 인덱스를 구합니다.
     let smallerChildIndex = this.getLeftChildIndex(index)
-
+    
+    // 오른쪽 자식 노드가 존재하고, 오른쪽 자식 노드의 값이 왼쪽 자식 노드의 값보다 작을 때
     if (
       this.hasRightChild(index) &&
       this.rightChild(index) < this.leftChild(index)
@@ -437,9 +438,11 @@ function heapifyDown() {
       smallerChildIndex = this.getRightChildIndex(index)
     }
 
+    // 자식 노드의 값이 현재 노드의 값보다 작으면 반복문을 종료합니다.
     if (this.heap[index] < this.heap[smallerChildIndex]) {
       break
     } else {
+      // 그렇지 않으면 노드의 위치를 더 작은 자식 노드와 바꿔줍니다.
       this.swap(index, smallerChildIndex)
     }
 
@@ -447,6 +450,7 @@ function heapifyDown() {
   }
 }
 ```
+![[heapify-down]]
 ## 참고
 - [Hackerrank Youtube Channel](https://www.youtube.com/@HackerrankOfficial)
 - [jbee/interview_question_for_beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/master/DataStructure/README.md#tree)

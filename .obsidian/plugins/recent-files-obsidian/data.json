@@ -5,6 +5,10 @@
       "path": "코딩/cs/data-structure/tree.md"
     },
     {
+      "basename": "heapify-down",
+      "path": "Excalidraw/cs/data-structure/tree/heapify-down.md"
+    },
+    {
       "basename": "프로세스와 스레드의 차이",
       "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "heapify-up",
       "path": "Excalidraw/cs/data-structure/tree/heapify-up.md"
-    },
-    {
-      "basename": "heapify-down",
-      "path": "Excalidraw/cs/data-structure/tree/heapify-down.md"
     },
     {
       "basename": "min-heap-delete-1",
