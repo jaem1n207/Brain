@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "min-heap",
+      "path": "Excalidraw/cs/data-structure/tree/min-heap.md"
+    },
+    {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "min-heap-insert-before",
+      "path": "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md"
     },
     {
       "basename": "hash-table",

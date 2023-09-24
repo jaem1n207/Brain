@@ -4,11 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "4aaa6103d5be827f",
+        "id": "c2dca13ef61025d4",
         "type": "tabs",
         "children": [
           {
-            "id": "ddf46fa49bb712bb",
+            "id": "1bb8067e759dee65",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/cs/data-structure/tree/min-heap.md"
+              }
+            }
+          },
+          {
+            "id": "da4d258a00d32275",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/cs/data-structure/tree/min-heap.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "ee8241d67ac01667",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0268b7421360a73a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -99,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "Excalidraw/cs/data-structure/tree/min-heap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "Excalidraw/cs/data-structure/tree/min-heap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md"
+                "file": "Excalidraw/cs/data-structure/tree/min-heap.md"
               }
             }
           }
@@ -162,14 +189,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ddf46fa49bb712bb",
+  "active": "da4d258a00d32275",
   "lastOpenFiles": [
+    "코딩/cs/data-structure/tree.md",
+    "Excalidraw/cs/data-structure/tree/min-heap.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-insert-before.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap.svg",
+    "Excalidraw/cs/data-structure/tree/무제 파일.canvas",
     "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/array & linked-list.md",
     "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/graph.md",
     "Excalidraw/cs/data-structure/tree/traversing.md",
-    "코딩/cs/data-structure/tree.md",
     "Excalidraw/cs/data-structure/tree/traversing.svg",
     "Excalidraw/cs/data-structure/tree/tree.svg",
     "코딩/cs/data-structure/bindary-heap.md",
@@ -206,7 +238,6 @@
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/cs/database/무제 파일.md",
     "코딩/react/render.md",
-    "코딩/patterns/design-patterns/builder-pattern.md",
     "코딩/이직 캔버스.canvas"
   ]
 }
