@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "graph",
-      "path": "코딩/cs/data-structure/graph.md"
-    },
-    {
-      "basename": "tree",
-      "path": "코딩/cs/data-structure/tree.md"
+      "basename": "array & linked-list",
+      "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
       "basename": "stack & queue",
@@ -17,8 +13,16 @@
       "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
-      "basename": "array & linked-list",
-      "path": "코딩/cs/data-structure/array & linked-list.md"
+      "basename": "graph",
+      "path": "코딩/cs/data-structure/graph.md"
+    },
+    {
+      "basename": "traversing",
+      "path": "Excalidraw/cs/data-structure/tree/traversing.md"
+    },
+    {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree.md"
     },
     {
       "basename": "facade-pattern",
@@ -31,10 +35,6 @@
     {
       "basename": "tree",
       "path": "Excalidraw/cs/data-structure/tree/tree.svg"
-    },
-    {
-      "basename": "traversing",
-      "path": "Excalidraw/cs/data-structure/tree/traversing.md"
     },
     {
       "basename": "unbalanced-tree",

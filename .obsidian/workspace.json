@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/data-structure/graph.md",
+                "file": "코딩/cs/data-structure/array & linked-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/data-structure/graph.md",
+                "file": "코딩/cs/data-structure/array & linked-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/data-structure/graph.md",
+                "file": "코딩/cs/data-structure/array & linked-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/data-structure/graph.md"
+                "file": "코딩/cs/data-structure/array & linked-list.md"
               }
             }
           }
@@ -164,13 +164,15 @@
   },
   "active": "ddf46fa49bb712bb",
   "lastOpenFiles": [
+    "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/hash-table.md",
+    "코딩/cs/data-structure/array & linked-list.md",
     "코딩/cs/data-structure/graph.md",
+    "Excalidraw/cs/data-structure/tree/traversing.md",
     "코딩/cs/data-structure/tree.md",
     "Excalidraw/cs/data-structure/tree/traversing.svg",
     "Excalidraw/cs/data-structure/tree/tree.svg",
     "코딩/cs/data-structure/bindary-heap.md",
-    "Excalidraw/cs/data-structure/tree/traversing.md",
     "코딩/cs/data-structure/tree/complete-binary-tree.md",
     "코딩/cs/data-structure/tree/binary-tree.md",
     "코딩/cs/data-structure/tree/binary-search-tree.md",
@@ -192,8 +194,6 @@
     "Excalidraw/cs/data-structure/tree/unbalanced-tree.md",
     "Excalidraw/cs/data-structure/tree/unbalanced-tree.svg",
     "Excalidraw/cs/data-structure/tree/tree.md",
-    "코딩/cs/data-structure/stack & queue.md",
-    "코딩/cs/data-structure/array & linked-list.md",
     "무제 파일.canvas",
     "코딩/front-end/왜 webpack에서 vite로 전환하였는가?.md",
     "코딩/cs/data-structure/tree/full-binary-tree.md",
