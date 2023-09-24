@@ -119,7 +119,7 @@ tags:
 
 ![[min-heap-delete-1]]
 
-그리고 해당 요소가 올바른 위치에 있지 않을 수 있으므로 최소힙의 성질을 만족할 때까지 루트 요소를 가져와서 자식 노드(왼쪽, 오른쪽)와 둘 중 작은 것으로 교체합니다. 이때 시간 복잡도는 `O(log n)`입니다.
+그리고 해당 요소가 올바른 위치에 있지 않을 수 있으므로 최소힙의 성질을 만족할 때까지 루트 요소를 가져와서 자식 노드(왼쪽, 오른쪽)와 둘 중 작은 것으로 교체합니다. 이때 시간 복잡도는 `O(log n)`입니다. 이렇게 힙은 `heapify` 과정을 거쳐 구조를 유지할 수 있습니다.
 
 ![[min-heap-delete-bubble]]
 
@@ -402,7 +402,27 @@ root.right.left.left = new TreeNode(10) // 10은 이제 60의 왼쪽에 있으�
 
 console.log(isBST(root)) // false
 ```
+### heapifyUp 코드 구현해보기
+```js
+function heapifyUp() {
+  // 추가된 가장 마지막 노드의 인덱스에서 1을 뺀 요소부터 시작
+  const index = this.heap.length - 1
 
+  // 상위 노드가 존재하고, 상위 노드의 값이 추가된 노드의 값보다 작을 때까지 반복
+  while (this.hasParent(index) && this.parent(index) > this.heap[index]) {
+    // 상위 노드와 추가된 노드의 위치를 바꿔줍니다
+    this.swap(this.getParentIndex(index), index)
+
+    // 추가된 노드의 인덱스를 상위 노드의 인덱스로 변경
+    index = this.getParentIndex(index)
+  }
+}
+```
+![[heapify-up]]
+### heapifyDown 코드 구현해보기
+```js
+
+```
 ## 참고
 - [Hackerrank Youtube Channel](https://www.youtube.com/@HackerrankOfficial)
 - [jbee/interview_question_for_beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/master/DataStructure/README.md#tree)

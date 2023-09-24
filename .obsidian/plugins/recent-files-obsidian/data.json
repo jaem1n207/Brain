@@ -5,12 +5,16 @@
       "path": "코딩/cs/data-structure/tree.md"
     },
     {
-      "basename": "min-heap-delete-bubble",
-      "path": "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md"
+      "basename": "heapify-up",
+      "path": "Excalidraw/cs/data-structure/tree/heapify-up.md"
     },
     {
       "basename": "min-heap-delete-1",
       "path": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md"
+    },
+    {
+      "basename": "min-heap-delete-bubble",
+      "path": "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md"
     },
     {
       "basename": "min-heap-delete",
