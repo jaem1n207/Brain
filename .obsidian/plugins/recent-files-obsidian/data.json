@@ -5,8 +5,28 @@
       "path": "코딩/cs/data-structure/tree.md"
     },
     {
+      "basename": "프로세스와 스레드의 차이",
+      "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
+    },
+    {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
+    },
+    {
+      "basename": "hash-table",
+      "path": "코딩/cs/data-structure/hash-table.md"
+    },
+    {
+      "basename": "graph",
+      "path": "코딩/cs/data-structure/graph.md"
+    },
+    {
       "basename": "heapify-up",
       "path": "Excalidraw/cs/data-structure/tree/heapify-up.md"
+    },
+    {
+      "basename": "heapify-down",
+      "path": "Excalidraw/cs/data-structure/tree/heapify-down.md"
     },
     {
       "basename": "min-heap-delete-1",
@@ -33,20 +53,8 @@
       "path": "Excalidraw/cs/data-structure/tree/min-heap.md"
     },
     {
-      "basename": "hash-table",
-      "path": "코딩/cs/data-structure/hash-table.md"
-    },
-    {
       "basename": "array & linked-list",
       "path": "코딩/cs/data-structure/array & linked-list.md"
-    },
-    {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
-      "basename": "graph",
-      "path": "코딩/cs/data-structure/graph.md"
     },
     {
       "basename": "traversing",
@@ -71,10 +79,6 @@
     {
       "basename": "tree",
       "path": "Excalidraw/cs/data-structure/tree/tree.md"
-    },
-    {
-      "basename": "프로세스와 스레드의 차이",
-      "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
     },
     {
       "basename": "singleton",

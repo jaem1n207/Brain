@@ -421,7 +421,31 @@ function heapifyUp() {
 ![[heapify-up]]
 ### heapifyDown 코드 구현해보기
 ```js
+function heapifyDown() {
+  // 루트 노드의 인덱스에서 시작
+  const index = 0
 
+  // 왼쪽 자식 노드가 있는 한 계속 반복
+  while (this.hasLeftChild(index)) {
+    // 자식 중 더 작은 노드의 인덱스를 구합니다.
+    let smallerChildIndex = this.getLeftChildIndex(index)
+
+    if (
+      this.hasRightChild(index) &&
+      this.rightChild(index) < this.leftChild(index)
+    ) {
+      smallerChildIndex = this.getRightChildIndex(index)
+    }
+
+    if (this.heap[index] < this.heap[smallerChildIndex]) {
+      break
+    } else {
+      this.swap(index, smallerChildIndex)
+    }
+
+    index = smallerChildIndex
+  }
+}
 ```
 ## 참고
 - [Hackerrank Youtube Channel](https://www.youtube.com/@HackerrankOfficial)

@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "87e42cf30128fbb1",
+        "id": "2dcf4c7aae647e37",
         "type": "tabs",
         "children": [
           {
-            "id": "2b8686c09e6febbf",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/cs/data-structure/tree/heapify-up.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "95903168430254fc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "53f5315f751bcd7e",
+            "id": "51367c74a9a5172e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,12 +162,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "53f5315f751bcd7e",
+  "active": "51367c74a9a5172e",
   "lastOpenFiles": [
+    "코딩/cs/os/프로세스와 스레드의 차이.md",
+    "코딩/cs/data-structure/tree.md",
+    "코딩/cs/data-structure/stack & queue.md",
+    "코딩/cs/data-structure/hash-table.md",
+    "코딩/cs/data-structure/graph.md",
     "Excalidraw/cs/data-structure/tree/heapify-up.md",
+    "Excalidraw/cs/data-structure/tree/heapify-down.md",
+    "Excalidraw/cs/data-structure/tree/heapify-down.svg",
     "Excalidraw/cs/data-structure/tree/heapify-up.svg",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
-    "코딩/cs/data-structure/tree.md",
     "code-playground/data-structures/tree/heapify.js",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",
@@ -199,12 +189,8 @@
     "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.svg",
     "Excalidraw/cs/data-structure/tree/min-heap.md",
     "Excalidraw/cs/data-structure/tree/min-heap-insert-before.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap.svg",
     "Excalidraw/cs/data-structure/tree/무제 파일.canvas",
-    "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/array & linked-list.md",
-    "코딩/cs/data-structure/stack & queue.md",
-    "코딩/cs/data-structure/graph.md",
     "Excalidraw/cs/data-structure/tree/traversing.md",
     "코딩/cs/data-structure/bindary-heap.md",
     "코딩/cs/data-structure/tree/complete-binary-tree.md",
@@ -225,8 +211,6 @@
     "무제 파일.canvas",
     "코딩/front-end/왜 webpack에서 vite로 전환하였는가?.md",
     "코딩/cs/data-structure/tree/full-binary-tree.md",
-    "코딩/cs/os/프로세스와 스레드의 차이.md",
-    "코딩/cs/data-structure/linked-list.md",
     "코딩/지식 캔버스.canvas",
     "코딩/이직 캔버스.canvas"
   ]

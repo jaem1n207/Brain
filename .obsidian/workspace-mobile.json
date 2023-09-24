@@ -143,6 +143,11 @@
   },
   "active": "ae94523785639253",
   "lastOpenFiles": [
+    "Excalidraw/cs/data-structure/tree/heapify-up.md",
+    "Excalidraw/cs/data-structure/tree/heapify-up.svg",
+    "Excalidraw/cs/data-structure/tree/heapify-down.svg",
+    "Excalidraw/cs/data-structure/tree/heapify-down.md",
+    "code-playground/data-structures/tree/heapify.js",
     "Excalidraw/cs/data-structure/tree/min-heap.md",
     "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md",
     "Excalidraw/cs/data-structure/tree/min-heap.svg",
@@ -170,13 +175,11 @@
     "Excalidraw/cs/data-structure/tree/tree.svg",
     "Excalidraw/cs/data-structure/tree/tree.md",
     "code-playground/data-structures/array/linked-list-based-array.mjs",
-    "Excalidraw/cs/data-structure/tree/traversing.svg",
     "code-playground/design-patterns/observer-pattern.ts",
     "code-playground/design-patterns/builder-pattern.ts",
     "code-playground/data-structures/tree/is-bst.mjs",
     "code-playground/data-structures/array/linked-list-based-array-list.mjs",
     "code-playground/data-structures/tree/binary-search-tree.mjs",
-    "code-playground/data-structures/array/has-cycle.mjs",
     "코딩/cs/os/프로세스와 스레드의 차이.md",
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/지식 캔버스.canvas",
@@ -187,8 +190,6 @@
     "코딩/cs/data-structure/tree/binary-tree.md",
     "코딩/cs/data-structure/tree/complete-binary-tree.md",
     "코딩/cs/data-structure/tree/full-binary-tree.md",
-    "코딩/cs/data-structure/array.md",
-    "코딩/cs/data-structure/bindary-heap.md",
     "코딩/이직 캔버스.canvas"
   ]
 }
