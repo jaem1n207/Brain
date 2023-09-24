@@ -5,6 +5,14 @@
       "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
+      "basename": "graph",
+      "path": "코딩/cs/data-structure/graph.md"
+    },
+    {
+      "basename": "array & linked-list",
+      "path": "코딩/cs/data-structure/array & linked-list.md"
+    },
+    {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "stack & queue",
       "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
-      "basename": "graph",
-      "path": "코딩/cs/data-structure/graph.md"
     },
     {
       "basename": "heapify-up",
@@ -51,10 +55,6 @@
     {
       "basename": "min-heap",
       "path": "Excalidraw/cs/data-structure/tree/min-heap.md"
-    },
-    {
-      "basename": "array & linked-list",
-      "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
       "basename": "traversing",
