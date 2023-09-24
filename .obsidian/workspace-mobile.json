@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/patterns/design-patterns/facade-pattern.md",
-                "mode": "source",
+                "file": "코딩/cs/data-structure/tree.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "코딩/patterns/design-patterns/facade-pattern.md",
+            "file": "코딩/cs/data-structure/tree.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "코딩/patterns/design-patterns/facade-pattern.md",
+            "file": "코딩/cs/data-structure/tree.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "코딩/patterns/design-patterns/facade-pattern.md"
+            "file": "코딩/cs/data-structure/tree.md"
           }
         }
       }
@@ -131,6 +131,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -142,22 +143,42 @@
   },
   "active": "ae94523785639253",
   "lastOpenFiles": [
+    "코딩/cs/data-structure/stack & queue.md",
+    "코딩/cs/data-structure/hash-table.md",
+    "코딩/cs/data-structure/graph.md",
+    "코딩/cs/data-structure/array & linked-list.md",
+    "코딩/patterns/design-patterns/facade-pattern.md",
+    "코딩/front-end/왜 webpack에서 vite로 전환하였는가?.md",
+    "code-playground/yarn.lock",
+    "Excalidraw/cs/data-structure/tree/traversing.md",
+    "코딩/cs/data-structure/tree.md",
+    "Excalidraw/cs/data-structure/tree/unbalanced-tree.svg",
+    "code-playground/package.json",
+    "code-playground/index.js",
+    "Excalidraw/cs/data-structure/tree/tree.svg",
+    "Excalidraw/cs/data-structure/tree/tree.md",
+    "code-playground/data-structures/array/linked-list-based-array.mjs",
+    "Excalidraw/cs/data-structure/tree/traversing.svg",
+    "code-playground/design-patterns/observer-pattern.ts",
+    "code-playground/design-patterns/builder-pattern.ts",
+    "code-playground/data-structures/tree/is-bst.mjs",
+    "code-playground/data-structures/array/linked-list-based-array-list.mjs",
+    "code-playground/data-structures/tree/binary-search-tree.mjs",
+    "code-playground/data-structures/array/has-cycle.mjs",
+    "코딩/cs/os/프로세스와 스레드의 차이.md",
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/지식 캔버스.canvas",
     "코딩/react/render.md",
     "코딩/지식.md",
-    "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/tree/binary-search-tree.md",
     "코딩/cs/data-structure/linked-list.md",
     "코딩/cs/data-structure/tree/binary-tree.md",
     "코딩/cs/data-structure/tree/complete-binary-tree.md",
     "코딩/cs/data-structure/tree/full-binary-tree.md",
-    "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/array.md",
     "코딩/cs/data-structure/bindary-heap.md",
     "코딩/패턴들/디자인 패턴/Facade Pattern.md",
     "코딩/패턴들/디자인 패턴/Builder Pattern.md",
-    "LICENSE",
     "코딩/프론트엔드 기술 면접 준비.md",
     "README.md",
     "코딩/이직 캔버스.canvas",

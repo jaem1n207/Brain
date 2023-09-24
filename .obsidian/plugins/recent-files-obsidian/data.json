@@ -5,12 +5,24 @@
       "path": "코딩/cs/data-structure/graph.md"
     },
     {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
+    },
+    {
       "basename": "hash-table",
       "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
-      "basename": "tree",
-      "path": "코딩/cs/data-structure/tree.md"
+      "basename": "array & linked-list",
+      "path": "코딩/cs/data-structure/array & linked-list.md"
+    },
+    {
+      "basename": "facade-pattern",
+      "path": "코딩/patterns/design-patterns/facade-pattern.md"
     },
     {
       "basename": "traversing",
@@ -33,20 +45,8 @@
       "path": "Excalidraw/cs/data-structure/tree/tree.md"
     },
     {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
-      "basename": "array & linked-list",
-      "path": "코딩/cs/data-structure/array & linked-list.md"
-    },
-    {
       "basename": "프로세스와 스레드의 차이",
       "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
-    },
-    {
-      "basename": "facade-pattern",
-      "path": "코딩/patterns/design-patterns/facade-pattern.md"
     },
     {
       "basename": "singleton",
