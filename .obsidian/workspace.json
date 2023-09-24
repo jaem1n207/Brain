@@ -8,27 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0268b7421360a73a",
+            "id": "cf4ad544f2fc91c4",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md"
-              }
-            }
-          },
-          {
-            "id": "cbd09599fb4b0c98",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.md"
+                "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "95903168430254fc",
@@ -126,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md"
+                "file": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md"
               }
             }
           }
@@ -189,13 +178,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "53f5315f751bcd7e",
+  "active": "cf4ad544f2fc91c4",
   "lastOpenFiles": [
-    "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
     "코딩/cs/data-structure/tree.md",
-    "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.10.25.excalidraw.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-1.svg",
+    "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.29.45.excalidraw.svg",
+    "Excalidraw/cs/data-structure/tree/무제 파일.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",
     "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md",
+    "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.md",
+    "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.26.06.excalidraw.svg",
+    "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.10.25.excalidraw.svg",
+    "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.svg",
     "Excalidraw/cs/data-structure/tree/min-heap.md",
     "Excalidraw/cs/data-structure/tree/min-heap-insert-before.svg",
     "Excalidraw/cs/data-structure/tree/min-heap.svg",
@@ -206,7 +203,6 @@
     "코딩/cs/data-structure/graph.md",
     "Excalidraw/cs/data-structure/tree/traversing.md",
     "Excalidraw/cs/data-structure/tree/traversing.svg",
-    "Excalidraw/cs/data-structure/tree/tree.svg",
     "코딩/cs/data-structure/bindary-heap.md",
     "코딩/cs/data-structure/tree/complete-binary-tree.md",
     "코딩/cs/data-structure/tree/binary-tree.md",
@@ -222,12 +218,7 @@
     "code-playground/data-structures/array/linked-list-based-array.mjs",
     "code-playground/data-structures/array/has-cycle.mjs",
     "tree.light.svg.md",
-    "Excalidraw/cs/data-structure/tree/unbalanced-tree.dark.svg",
-    "Excalidraw/cs/data-structure/tree/unbalanced-tree.light.svg",
-    "Excalidraw/cs/data-structure/tree/tree.dark.svg",
-    "Excalidraw/cs/data-structure/tree/tree.light.svg",
     "Excalidraw/cs/data-structure/tree/unbalanced-tree.md",
-    "Excalidraw/cs/data-structure/tree/unbalanced-tree.svg",
     "Excalidraw/cs/data-structure/tree/tree.md",
     "무제 파일.canvas",
     "코딩/front-end/왜 webpack에서 vite로 전환하였는가?.md",
@@ -237,9 +228,6 @@
     "코딩/patterns/design-patterns/facade-pattern.md",
     "코딩/지식 캔버스.canvas",
     "코딩/cs/data-structure/binary-search-tree.md",
-    "코딩/지식.md",
-    "코딩/patterns/design-patterns/singleton.md",
-    "코딩/cs/database/무제 파일.md",
     "코딩/이직 캔버스.canvas"
   ]
 }

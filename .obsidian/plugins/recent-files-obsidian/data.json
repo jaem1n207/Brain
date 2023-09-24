@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "min-heap-delete-1",
+      "path": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md"
+    },
+    {
+      "basename": "min-heap-delete",
+      "path": "Excalidraw/cs/data-structure/tree/min-heap-delete.md"
+    },
+    {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
     },
     {
-      "basename": "min-heap-bubble-process",
-      "path": "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.md"
-    },
-    {
       "basename": "min-heap-insert-before",
       "path": "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md"
+    },
+    {
+      "basename": "min-heap-bubble-process",
+      "path": "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.md"
     },
     {
       "basename": "min-heap",
