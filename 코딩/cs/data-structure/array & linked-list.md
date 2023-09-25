@@ -146,7 +146,7 @@ export function hasCycle(linkedList) {
 ```
 
 ## Doubly Linked List
-다음 요소에 대한 링크를 갖는 것 외에 추가로 이전 요소에 대한 포인터를 저장함으로써 이전 요소에 접근이 ㅇ가능하게 만든 Linked List입니다.
+다음 요소에 대한 링크를 갖는 것 외에 추가로 이전 요소에 대한 포인터를 저장함으로써 이전 요소에 접근이 가능하게 만든 Linked List입니다.
 
 ## Array와 Linked List 비교
 **Array**가 **추가** 및 **삭제** 부분에서 더 효율적이라면, **탐색**은 **Linked List**가 더 효율적입니다.

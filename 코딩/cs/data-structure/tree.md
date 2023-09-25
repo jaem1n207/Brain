@@ -147,7 +147,7 @@ RBT는 BST의 삽입, 삭제 연산 과정에서 발생할 수 있는 문제점�
 ### 삽입
 우선 BST의 특성을 유지하면서 노드를 삽입합니다. 그리고 삽입된 노드의 색상은 빨간색입니다. `Red`로 지정하는 이유는` Black-Height` 변경을 최소화하기 위함입니다. 삽입 결과 RBT의 특성 위배 시 노드의 색상을 조정하고, `Black-Height가` 위배되었다면 `rotation`을 통해 `height`를 조정합니다. 이러한 과정을 통해 RBT의 동일한 `height`에 존재하는 `internal node (내부 노드)`들의 `Black-Height`가 같아지게 되고 최소 경로와 최대 경로의 크기 비율이 2 미만으로 유지될 수 있습니다.
 ### 삭제
-삭제도 삽입과 마찬가지로 BST의 특성을 유지하면서 노드를 삭제합ㄴ디ㅏ. 삭제될 노드의 자식의 개수에 따라 `rotation` 방법이 달라지게 됩니다. 그리고 만약 지워진 노드의 색깔이 `Black`이라면 `Black-Height`가 1 감소한 경로에 `black node`가 1개 추가되도록 `rotation`하고 노드의 색상을 조정합니다. 지워진 노드의 색상이 `red`라면 `Violation`이 발생하지 않으므로 RBT가 그대로 유지됩니다.
+삭제도 삽입과 마찬가지로 BST의 특성을 유지하면서 노드를 삭제합니다. 삭제될 노드의 자식의 개수에 따라 `rotation` 방법이 달라지게 됩니다. 그리고 만약 지워진 노드의 색깔이 `Black`이라면 `Black-Height`가 1 감소한 경로에 `black node`가 1개 추가되도록 `rotation`하고 노드의 색상을 조정합니다. 지워진 노드의 색상이 `red`라면 `Violation`이 발생하지 않으므로 RBT가 그대로 유지됩니다.
 
 Java Collection 에서 TreeMap도 내부적으로 RBT 로 이루어져 있고, HashMap 에서의 `Separate Chaining`에서도 사용됩니다. 그만큼 효율이 좋고 중요한 자료구조입니다.
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md",
+                "file": "코딩/cs/data-structure/graph.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md",
+                "file": "코딩/cs/data-structure/graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md",
+                "file": "코딩/cs/data-structure/graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md"
+                "file": "코딩/cs/data-structure/graph.md"
               }
             }
           }
@@ -165,13 +165,13 @@
   },
   "active": "51367c74a9a5172e",
   "lastOpenFiles": [
-    "코딩/cs/data-structure/tree.md",
-    "코딩/cs/data-structure/stack & queue.md",
-    "코딩/cs/data-structure/array & linked-list.md",
-    "코딩/cs/data-structure/hash-table.md",
-    "코딩/cs/data-structure/graph.md",
-    "Excalidraw/cs/data-structure/tree/heapify-down.md",
     "코딩/cs/os/프로세스와 스레드의 차이.md",
+    "코딩/cs/data-structure/tree.md",
+    "코딩/cs/data-structure/graph.md",
+    "코딩/cs/data-structure/array & linked-list.md",
+    "코딩/cs/data-structure/stack & queue.md",
+    "코딩/cs/data-structure/hash-table.md",
+    "Excalidraw/cs/data-structure/tree/heapify-down.md",
     "Excalidraw/cs/data-structure/tree/heapify-up.md",
     "Excalidraw/cs/data-structure/tree/heapify-down.svg",
     "Excalidraw/cs/data-structure/tree/heapify-up.svg",
