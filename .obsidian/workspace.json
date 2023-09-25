@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/network/tcp 3-way handshake.md",
+                "file": "코딩/cs/network/http & https.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/network/tcp 3-way handshake.md",
+                "file": "코딩/cs/network/http & https.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/network/tcp 3-way handshake.md",
+                "file": "코딩/cs/network/http & https.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/network/tcp 3-way handshake.md"
+                "file": "코딩/cs/network/http & https.md"
               }
             }
           }
