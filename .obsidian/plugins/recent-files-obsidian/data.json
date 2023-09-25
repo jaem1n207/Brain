@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "singleton",
+      "path": "코딩/patterns/design-patterns/singleton.md"
+    },
+    {
+      "basename": "observer-pattern",
+      "path": "코딩/patterns/design-patterns/observer-pattern.md"
+    },
+    {
       "basename": "graph",
       "path": "코딩/cs/data-structure/graph.md"
     },
@@ -81,20 +89,12 @@
       "path": "Excalidraw/cs/data-structure/tree/tree.md"
     },
     {
-      "basename": "singleton",
-      "path": "코딩/patterns/design-patterns/singleton.md"
-    },
-    {
       "basename": "지식 캔버스",
       "path": "코딩/지식 캔버스.canvas"
     },
     {
       "basename": "지식",
       "path": "코딩/지식.md"
-    },
-    {
-      "basename": "observer-pattern",
-      "path": "코딩/patterns/design-patterns/observer-pattern.md"
     },
     {
       "basename": "builder-pattern",
