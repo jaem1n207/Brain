@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "singleton",
-      "path": "코딩/patterns/design-patterns/singleton.md"
+      "basename": "facade-pattern",
+      "path": "코딩/patterns/design-patterns/facade-pattern.md"
     },
     {
       "basename": "observer-pattern",
       "path": "코딩/patterns/design-patterns/observer-pattern.md"
+    },
+    {
+      "basename": "singleton",
+      "path": "코딩/patterns/design-patterns/singleton.md"
     },
     {
       "basename": "graph",
@@ -67,10 +71,6 @@
     {
       "basename": "traversing",
       "path": "Excalidraw/cs/data-structure/tree/traversing.md"
-    },
-    {
-      "basename": "facade-pattern",
-      "path": "코딩/patterns/design-patterns/facade-pattern.md"
     },
     {
       "basename": "traversing",

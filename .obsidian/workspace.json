@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "38fd897d2ee1ec7b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4a3c90b34e7e3b57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "코딩/patterns/design-patterns/observer-pattern.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "2dcf4c7aae647e37",
         "type": "tabs",
         "children": [
@@ -183,6 +165,8 @@
   },
   "active": "51367c74a9a5172e",
   "lastOpenFiles": [
+    "code-playground/design-patterns/singleton.mjs",
+    "code-playground/design-patterns/singleton.js",
     "코딩/patterns/design-patterns/observer-pattern.md",
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/cs/data-structure/graph.md",
@@ -225,12 +209,10 @@
     "code-playground/data-structures/queue/queue.mjs",
     "code-playground/data-structures/queue/heap.mjs",
     "code-playground/data-structures/array/linked-list-based-array-list.mjs",
-    "code-playground/data-structures/array/linked-list-based-array.mjs",
     "tree.light.svg.md",
     "Excalidraw/cs/data-structure/tree/unbalanced-tree.md",
     "Excalidraw/cs/data-structure/tree/tree.md",
     "무제 파일.canvas",
-    "코딩/front-end/왜 webpack에서 vite로 전환하였는가?.md",
     "코딩/지식 캔버스.canvas",
     "코딩/이직 캔버스.canvas"
   ]

@@ -9,6 +9,35 @@ tags:
 2. 지연 초기화: 메모리는 필요한 경우에만 사용됩니다.
 ### 싱글톤의 단점
 1. 전역 상태: 본질적으로 전역 인스턴스를 생성하므로 종속성을 숨기고 시스템의 투명성을 떨어뜨릴  수 있습니다.
-2. 테스팅: 싱글톤은 테스트 사례 전반에 걸쳐 공유
+2. 테스팅: 싱글톤은 테스트 사례 간에 공유된 상태를 전달하기 때문에 테스트 시나리오에서 문제가 발생할 수 있습니다.
 
 ## 구현
+하나의 인스턴스만을 유지하기 위해 생성에 특별한 제약을 걸어둬야 합니다. 그리고 유일한 단일 객체를 반환할 수 있도록 정적 메소드드를 지원해야 합니다. 또한 유일한 단일 객체를 참조할 정적 참조변수가 필요합니다.
+```js
+class Singleton {
+  static instance = new Singleton()
+
+  constructor() {
+    if (Singleton.instance) {
+      return Singleton.instance
+    }
+
+    Singleton.instance = this
+  }
+}
+
+const instance1 = new Singleton()
+const instance2 = new Singleton()
+
+console.log(instance1 === instance2) // true
+```
+클래스 로딩시 인스턴스가 생성됩니다. 이 방식은 간단하지만 필요 여부에 관계없이 인스턴스가 생성됩니다. 따라서 멀티스레딩 환경에서 이 방식을 적용하면 문제가 발생할 수 있습니다. 동시에 접근하다가 하나만 생성되어야 하는 인스턴스가 2개 생성될 수 있기 때문입니다. 그렇기 때문에 인스턴스가 초기화되기 전에 두 스레드가 동시에 `getInstance()`를 호출하면 두 스레드 모두 결국 새 인스턴스를 생성하게 되어 단일 인스턴스를 갖는 싱글톤 패턴의 기본 규칙을 위반하므로 이를 동기화시켜야 멀티스레드 환경에서의 문제가 해결됩니다.
+
+멀티스레딩 문제를 처리하는 방법을 알아보겠습니다.
+### syncronized 키워드 사용
+Java와 같은 언어에서는 `syncronized` 키워드를 사용해 `getInstance` 메소드가 동기화되었는지 확인하여 주어진 시간에 하나의 스레드만 이 메소드를 실행할 수 있도록 할 수 있습니다.
+## 결론
+멀티스레딩 환경에서 싱글톤의 주요 문제는 동시 스레드에 대해 하나의 인스턴스만 생성되도록 보장하는 것입니다.JS 환경은 기존 멀티스레드 언어와 동일한 방식으로 이러한 문제에 직면하지 않지만, Web Workers 및 유사한 기술의 경우 개발자들은 동시에 발생할 수 있는 위험에 대해 알아야 합니다. 싱글톤이 이러한 방식으로 액세스되기를 원한다면 항상 동시성을 염두에 두고 설계해야 하는 것이 중요합니다.
+
+## 참고
+- [Jbee/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/DesignPattern/README.md)

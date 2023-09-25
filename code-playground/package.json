@@ -12,7 +12,8 @@
     "array:linked-list-based-array": "node data-structures/array/linked-list-based-array.mjs",
     "array-linked-list-based-array-list": "node data-structures/array/linked-list-based-array-list.mjs",
     "tree-binary-search-tree": "node data-structures/tree/binary-search-tree.mjs",
-    "tree-is-bst": "node data-structures/tree/is-bst.mjs"
+    "tree-is-bst": "node data-structures/tree/is-bst.mjs",
+    "singleton": "node design-patterns/singleton.mjs"
   },
   "keywords": [
     "data-structures"

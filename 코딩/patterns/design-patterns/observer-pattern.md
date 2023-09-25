@@ -21,7 +21,7 @@ tags:
 ### 구현
 음악 페스티벌을 상상해 보겠습니다. 여기엔 밴드라는 `Observable`, 많은 `Observers`들(팬들, 보안 요원, 조명 등)이 있을 겁니다. 서로 다른 모든 `Observer`가 구현할 수 있는 인터페이스를 구현해보겠습니다.
 
-위에서 언급했듯이 `Observable` 인터페이스에는 3가지 메서드(subscribe, unsubscribe, notify)가 있어야 합니다.
+위에서 언급했듯이 `Observable` 인터페이스에는 3가지 메소드(subscribe, unsubscribe, notify)가 있어야 합니다.
 ```typescript
 interface Observable {
 	// 옵저버 추가
@@ -67,7 +67,7 @@ class Band implements Observable {
 
 `subscribe`함수를 통해 `Observer`를 등록하고 반대로 `unsubscribe`함수를 통해 등록을 해지할 수 있습니다. 그리고 `notify`함수를 통해 모든 `Observer`에게 이벤트를 전파할 수 있습니다.
 
-`Observer`가 되려면 **onNotify**라는 메서드가 있어야 합니다. 그리고 문자열 타입의 `event`를 인수로 받습니다.
+`Observer`가 되려면 **onNotify**라는 메소드가 있어야 합니다. 그리고 문자열 타입의 `event`를 인수로 받습니다.
 ```typescript
 interface Observer {
 	onNotify: (event: string) => void;
