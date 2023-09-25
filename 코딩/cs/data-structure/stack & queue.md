@@ -228,7 +228,7 @@ class MinHeap {
     return min
   }
 
-  // 삽입 후 힙 속성을 유지하기 위한 헬퍼 메서드
+  // 삽입 후 힙 속성을 유지하기 위한 헬퍼 메소드
   bubbleUp() {
     let index = this.size - 1
 
@@ -245,7 +245,7 @@ class MinHeap {
     }
   }
 
-  // 추출 후 힙 속성을 유지하기 위한 헬퍼 메서드
+  // 추출 후 힙 속성을 유지하기 위한 헬퍼 메소드
   bubbleDown(index) {
     while (true) {
       let leftChildIdx = 2 * index + 1

@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "singleton",
+      "path": "코딩/patterns/design-patterns/singleton.md"
+    },
+    {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
+    },
+    {
+      "basename": "builder-pattern",
+      "path": "코딩/patterns/design-patterns/builder-pattern.md"
+    },
+    {
       "basename": "facade-pattern",
       "path": "코딩/patterns/design-patterns/facade-pattern.md"
     },
     {
       "basename": "observer-pattern",
       "path": "코딩/patterns/design-patterns/observer-pattern.md"
-    },
-    {
-      "basename": "singleton",
-      "path": "코딩/patterns/design-patterns/singleton.md"
     },
     {
       "basename": "graph",
@@ -21,16 +33,8 @@
       "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
     },
     {
-      "basename": "tree",
-      "path": "코딩/cs/data-structure/tree.md"
-    },
-    {
       "basename": "array & linked-list",
       "path": "코딩/cs/data-structure/array & linked-list.md"
-    },
-    {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
       "basename": "hash-table",
@@ -95,10 +99,6 @@
     {
       "basename": "지식",
       "path": "코딩/지식.md"
-    },
-    {
-      "basename": "builder-pattern",
-      "path": "코딩/patterns/design-patterns/builder-pattern.md"
     },
     {
       "basename": "render",

@@ -169,7 +169,7 @@ class BinarySearchTree {
     this.root = null
   }
 
-  // 트리에 노드를 삽입하는 메서드
+  // 트리에 노드를 삽입하는 메소드
 
   insert(value) {
     const newNode = new TreeNode(value)
@@ -207,7 +207,7 @@ class BinarySearchTree {
     }
   }
 
-  // 트리에서 노드를 찾는 메서드
+  // 트리에서 노드를 찾는 메소드
 
   search(value) {
     let currentNode = this.root
@@ -233,7 +233,7 @@ class BinarySearchTree {
     return null
   }
 
-  // 최소값을 갖는 노드를 찾는 헬퍼 메서드
+  // 최소값을 갖는 노드를 찾는 헬퍼 메소드
 
   findMin(node) {
     let currentNode = node
@@ -245,7 +245,7 @@ class BinarySearchTree {
     return currentNode
   }
 
-  // 트리에서 노드를 삭제하는 메서드
+  // 트리에서 노드를 삭제하는 메소드
 
   delete(value, node = this.root) {
     if (!node) return null
@@ -273,7 +273,7 @@ class BinarySearchTree {
     return node
   }
 
-  // 트리를 중위 순회하는 메서드
+  // 트리를 중위 순회하는 메소드
 
   inOrder(node = this.root) {
     let result = []
@@ -289,7 +289,7 @@ class BinarySearchTree {
     return result
   }
 
-  // 트리를 전위 순회하는 메서드
+  // 트리를 전위 순회하는 메소드
 
   preOrder(node = this.root) {
     let result = []
@@ -305,7 +305,7 @@ class BinarySearchTree {
     return result
   }
 
-  // 트리를 후위 순회하는 메서드
+  // 트리를 후위 순회하는 메소드
 
   postOrder(node = this.root) {
     let result = []
