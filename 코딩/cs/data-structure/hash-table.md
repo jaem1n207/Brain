@@ -20,7 +20,7 @@ key  => value lookup
 
 `Collision`은 왜 발생하게 되는 걸까요? 탐색할 때 데이터 고유의 인덱스로 접근합니다. 이 고유의 인덱스는 해시 함수를 이용해 저장할 데이터와 연관된 고유한 숫자를 만들어 낸 뒤 이를 인덱스로 사용하는 것입니다. 또한 이 고유한 인덱스는 메모리 효율을 위해 **작은 범위의 값**을 가집니다. 작은 범위의 값으로 상당히 큰 배열에 대해 해시 코드를 1:1 대응이 되도록 만들기엔 한계가 있으므로 충돌이 납니다. 그러므로 `Collision` 해결은 필수이며 그 방법들에 대해 알아보겠습니다.
 
-충돌을 해결하는 데 여러 가지 방법이 있습니다. 그 중 기본이 되는 `Open Address`과 `Separate Chaining` 방식에 대해 알아보겠습니다.
+해시 충돌이 발생하더라도 키-값 쌍 데이터를 잘 저장하고 조회할 수 있게 하는 방식에는 대표적으로 `Open Address`과 `Separate Chaining` 2가지 방식이 있습니다. 이 둘 외에도 해시 충돌을 해결하기 위한 다양한 자료 구조가 있지만, 거의 모두 이 둘을 응용한 것이라고 할 수 있습니다.
 
 ## Separate Chaining 방식 (분리 연결법)
 충돌이 발생하면 `Linked List`를 사용해 저장하는 방식입니다.
@@ -44,3 +44,4 @@ key  => value lookup
 
 ### 참고
 - [jbee/interview_question_for_beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/DataStructure/README.md#1-open-address-%EB%B0%A9%EC%8B%9D-%EA%B0%9C%EB%B0%A9%EC%A3%BC%EC%86%8C%EB%B2%95)
+- [Java HashMap은 어떻게 동작하는가](https://d2.naver.com/helloworld/831311)
