@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/network/TCP 3-way Handshake.md",
+                "file": "코딩/cs/network/tcp 3-way handshake.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"class ApiFacade {\tprivate baseUrl: string;\t\t\t// 생성자에서 `baseUrl`프로퍼티가 전달되는 ApiFacade 클래스를 생성합니다.\t\tconstructor(baseUrl: string) {\t\tthis.baseUrl = baseUrl;\t\t}\t\t\t// API에서 데이터를 보내는 메서드를 정의합니다.\t\tasync post(path: string, data: any) {\t\tconst response = await fetch(`${this.baseUrl}${path}`, {\t\tmethod: 'POST',\t\theaders: {\t\t'Content-Type': 'application/json',\t\t},\t\tbody: JSON.stringify(data),\t\t});\t\t  \t\treturn response.json();\t\t}\t\t  \t// API에서 데이터를 가져오는 메서드를 정의합니다.\t\tasync get(path: string) {\t\tconst response = await fetch(`${this.baseUrl}${path}`, {\t\tmethod: 'GET',\t\t});\t\t  \treturn response.json();\t\t}\t\t}\t\t\t// 기본 URL을 설정합니다.\t\tconst api = new ApiFacade('https://jsonplaceholder.typicode.com');\t\t\t// 경로와 데이터를 호출해서 사용할 수 있습니다.\t\tconst users = await api.get('/users');\t\tconst createdUser = await api.post('/users', {\t\tname: 'John Doe',\t\tage: 30,});\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/network/TCP 3-way Handshake.md",
+                "file": "코딩/cs/network/tcp 3-way handshake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/network/TCP 3-way Handshake.md",
+                "file": "코딩/cs/network/tcp 3-way handshake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/network/TCP 3-way Handshake.md"
+                "file": "코딩/cs/network/tcp 3-way handshake.md"
               }
             }
           }
@@ -165,8 +165,9 @@
   },
   "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
-    "코딩/cs/network/http.md",
-    "코딩/cs/network/TCP 3-way Handshake.md",
+    "코딩/cs/network/tcp & udp.md",
+    "코딩/cs/network/tcp 3-way handshake.md",
+    "코딩/cs/network/http & https.md",
     "코딩/지식.md",
     "코딩/지식 캔버스.canvas",
     "Excalidraw/코딩/etc/왜 webpack에서 vite로 전환하였는가?.md",
@@ -201,7 +202,6 @@
     "Excalidraw/코딩/cs/data-structure/stack & queue.md",
     "Excalidraw/코딩/patterns/design-patterns/builder-pattern.md",
     "Excalidraw/코딩/patterns/design-patterns/facade-pattern.md",
-    "Excalidraw/코딩/patterns/design-patterns/observer-pattern.md",
     "Excalidraw/cs/data-structure/tree/heapify-down.svg",
     "Excalidraw/cs/data-structure/tree/heapify-up.svg",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",
