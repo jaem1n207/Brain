@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2dcf4c7aae647e37",
+        "id": "3a674a1eb9b48ac7",
         "type": "tabs",
         "children": [
           {
-            "id": "51367c74a9a5172e",
+            "id": "ba51ddc817467cda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/os/프로세스와 스레드의 차이.md",
+                "file": "코딩/cs/data-structure/tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/os/프로세스와 스레드의 차이.md",
+                "file": "코딩/cs/data-structure/tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/os/프로세스와 스레드의 차이.md",
+                "file": "코딩/cs/data-structure/tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/os/프로세스와 스레드의 차이.md"
+                "file": "코딩/cs/data-structure/tree.md"
               }
             }
           }
@@ -163,10 +163,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "51367c74a9a5172e",
+  "active": "ba51ddc817467cda",
   "lastOpenFiles": [
-    "코딩/cs/data-structure/tree.md",
+    "코딩/git/git.md",
+    "무제 파일.md",
     "코딩/cs/os/프로세스와 스레드의 차이.md",
+    "코딩/git",
+    "코딩/cs/data-structure/tree.md",
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/cs/data-structure/stack & queue.md",
     "코딩/patterns/design-patterns/builder-pattern.md",
@@ -209,9 +212,6 @@
     "code-playground/data-structures/stack/queue.mjs",
     "code-playground/data-structures/stack/is-balanced-tokens.mjs",
     "code-playground/data-structures/queue/queue.mjs",
-    "code-playground/data-structures/queue/heap.mjs",
-    "tree.light.svg.md",
-    "Excalidraw/cs/data-structure/tree/unbalanced-tree.md",
     "무제 파일.canvas",
     "코딩/지식 캔버스.canvas",
     "코딩/이직 캔버스.canvas"

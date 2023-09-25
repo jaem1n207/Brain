@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "프로세스와 스레드의 차이",
-      "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
-    },
-    {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "git",
+      "path": "코딩/git/git.md"
+    },
+    {
+      "basename": "프로세스와 스레드의 차이",
+      "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
     },
     {
       "basename": "singleton",
