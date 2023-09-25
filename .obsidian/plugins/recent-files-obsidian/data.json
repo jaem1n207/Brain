@@ -1,48 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "tree",
-      "path": "코딩/cs/data-structure/tree.md"
+      "basename": "TCP 3-way Handshake",
+      "path": "코딩/cs/network/TCP 3-way Handshake.md"
     },
     {
-      "basename": "git",
-      "path": "코딩/git/git.md"
+      "basename": "http",
+      "path": "코딩/cs/network/http.md"
     },
     {
-      "basename": "프로세스와 스레드의 차이",
-      "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
+      "basename": "지식",
+      "path": "코딩/지식.md"
     },
     {
-      "basename": "singleton",
-      "path": "코딩/patterns/design-patterns/singleton.md"
-    },
-    {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
-      "basename": "builder-pattern",
-      "path": "코딩/patterns/design-patterns/builder-pattern.md"
-    },
-    {
-      "basename": "facade-pattern",
-      "path": "코딩/patterns/design-patterns/facade-pattern.md"
-    },
-    {
-      "basename": "observer-pattern",
-      "path": "코딩/patterns/design-patterns/observer-pattern.md"
-    },
-    {
-      "basename": "graph",
-      "path": "코딩/cs/data-structure/graph.md"
-    },
-    {
-      "basename": "array & linked-list",
-      "path": "코딩/cs/data-structure/array & linked-list.md"
-    },
-    {
-      "basename": "hash-table",
-      "path": "코딩/cs/data-structure/hash-table.md"
+      "basename": "지식 캔버스",
+      "path": "코딩/지식 캔버스.canvas"
     },
     {
       "basename": "heapify-down",
@@ -95,18 +67,6 @@
     {
       "basename": "tree",
       "path": "Excalidraw/cs/data-structure/tree/tree.md"
-    },
-    {
-      "basename": "지식 캔버스",
-      "path": "코딩/지식 캔버스.canvas"
-    },
-    {
-      "basename": "지식",
-      "path": "코딩/지식.md"
-    },
-    {
-      "basename": "render",
-      "path": "코딩/react/render.md"
     },
     {
       "basename": "README",

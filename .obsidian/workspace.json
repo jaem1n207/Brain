@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3a674a1eb9b48ac7",
+        "id": "144ce8faad4770f6",
         "type": "tabs",
         "children": [
           {
-            "id": "ba51ddc817467cda",
+            "id": "b7354f76a7ed106d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "코딩/cs/network/TCP 3-way Handshake.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "코딩/cs/network/TCP 3-way Handshake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "코딩/cs/network/TCP 3-way Handshake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md"
+                "file": "코딩/cs/network/TCP 3-way Handshake.md"
               }
             }
           }
@@ -163,57 +163,58 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ba51ddc817467cda",
+  "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
-    "코딩/git/git.md",
-    "무제 파일.md",
-    "코딩/cs/os/프로세스와 스레드의 차이.md",
-    "코딩/git",
-    "코딩/cs/data-structure/tree.md",
+    "코딩/cs/network/http.md",
+    "코딩/cs/network/TCP 3-way Handshake.md",
+    "코딩/지식.md",
+    "코딩/지식 캔버스.canvas",
+    "Excalidraw/코딩/etc/왜 webpack에서 vite로 전환하였는가?.md",
     "코딩/patterns/design-patterns/singleton.md",
-    "코딩/cs/data-structure/stack & queue.md",
-    "코딩/patterns/design-patterns/builder-pattern.md",
-    "코딩/patterns/design-patterns/facade-pattern.md",
     "코딩/patterns/design-patterns/observer-pattern.md",
-    "code-playground/design-patterns/singleton.mjs",
-    "code-playground/design-patterns/singleton.js",
+    "코딩/patterns/design-patterns/facade-pattern.md",
+    "코딩/patterns/design-patterns/builder-pattern.md",
+    "코딩/cs/os/프로세스와 스레드의 차이.md",
+    "코딩/cs/data-structure/tree.md",
+    "코딩/cs/data-structure/stack & queue.md",
+    "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/graph.md",
     "코딩/cs/data-structure/array & linked-list.md",
-    "코딩/cs/data-structure/hash-table.md",
-    "Excalidraw/cs/data-structure/tree/heapify-down.md",
-    "Excalidraw/cs/data-structure/tree/heapify-up.md",
+    "코딩/react/render.md",
+    "코딩/patterns/design-patterns",
+    "코딩/git/git.md",
+    "코딩/cs/network",
+    "코딩/etc/왜 webpack에서 vite로 전환하였는가?.md",
+    "코딩/cs/os",
+    "코딩/cs/database",
+    "코딩/cs/data-structure",
+    "코딩/security",
+    "코딩/react",
+    "코딩/performance",
+    "코딩/patterns",
+    "코딩/node",
+    "Excalidraw/코딩/cs/data-structure/tree.md",
+    "Excalidraw/코딩/git/git.md",
+    "무제 파일.md",
+    "Excalidraw/코딩/cs/os/프로세스와 스레드의 차이.md",
+    "Excalidraw/코딩/patterns/design-patterns/singleton.md",
+    "Excalidraw/코딩/cs/data-structure/stack & queue.md",
+    "Excalidraw/코딩/patterns/design-patterns/builder-pattern.md",
+    "Excalidraw/코딩/patterns/design-patterns/facade-pattern.md",
+    "Excalidraw/코딩/patterns/design-patterns/observer-pattern.md",
     "Excalidraw/cs/data-structure/tree/heapify-down.svg",
     "Excalidraw/cs/data-structure/tree/heapify-up.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
-    "code-playground/data-structures/tree/heapify.js",
-    "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap-delete.md",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-1.svg",
     "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.29.45.excalidraw.svg",
-    "Excalidraw/cs/data-structure/tree/무제 파일.md",
     "Excalidraw/cs/data-structure/tree/min-heap-delete.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap-insert-before.md",
-    "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.md",
     "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.26.06.excalidraw.svg",
     "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.10.25.excalidraw.svg",
     "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap.md",
     "Excalidraw/cs/data-structure/tree/min-heap-insert-before.svg",
     "Excalidraw/cs/data-structure/tree/무제 파일.canvas",
-    "Excalidraw/cs/data-structure/tree/traversing.md",
-    "코딩/cs/data-structure/bindary-heap.md",
-    "코딩/cs/data-structure/tree/complete-binary-tree.md",
-    "코딩/cs/data-structure/tree/binary-tree.md",
-    "코딩/cs/data-structure/tree/binary-search-tree.md",
-    "code-playground/data-structures/tree/is-bst.mjs",
-    "code-playground/data-structures/tree/binary-search-tree.mjs",
-    "code-playground/data-structures/stack/stack.mjs",
-    "code-playground/data-structures/stack/queue.mjs",
-    "code-playground/data-structures/stack/is-balanced-tokens.mjs",
-    "code-playground/data-structures/queue/queue.mjs",
     "무제 파일.canvas",
-    "코딩/지식 캔버스.canvas",
+    "Excalidraw/코딩/지식 캔버스.canvas",
     "코딩/이직 캔버스.canvas"
   ]
 }
