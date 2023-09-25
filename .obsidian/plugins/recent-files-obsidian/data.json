@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "graph",
-      "path": "코딩/cs/data-structure/graph.md"
-    },
-    {
       "basename": "hash-table",
       "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
-      "basename": "array & linked-list",
-      "path": "코딩/cs/data-structure/array & linked-list.md"
+      "basename": "graph",
+      "path": "코딩/cs/data-structure/graph.md"
     },
     {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
+    },
+    {
+      "basename": "array & linked-list",
+      "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
       "basename": "heapify-down",
@@ -23,10 +27,6 @@
     {
       "basename": "프로세스와 스레드의 차이",
       "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
-    },
-    {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
       "basename": "heapify-up",
