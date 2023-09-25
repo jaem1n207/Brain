@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "singleton",
-      "path": "코딩/patterns/design-patterns/singleton.md"
+      "basename": "프로세스와 스레드의 차이",
+      "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
     },
     {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "singleton",
+      "path": "코딩/patterns/design-patterns/singleton.md"
     },
     {
       "basename": "stack & queue",
@@ -27,10 +31,6 @@
     {
       "basename": "graph",
       "path": "코딩/cs/data-structure/graph.md"
-    },
-    {
-      "basename": "프로세스와 스레드의 차이",
-      "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
     },
     {
       "basename": "array & linked-list",
