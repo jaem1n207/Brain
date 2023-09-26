@@ -5,12 +5,12 @@
       "path": "코딩/cs/network/tcp & udp.md"
     },
     {
-      "basename": "소프트웨어 개발 프로세스",
-      "path": "코딩/software-engineering/소프트웨어 개발 프로세스.md"
-    },
-    {
       "basename": "tcp 3-way handshake",
       "path": "코딩/cs/network/tcp 3-way handshake.md"
+    },
+    {
+      "basename": "소프트웨어 개발 프로세스",
+      "path": "코딩/software-engineering/소프트웨어 개발 프로세스.md"
     },
     {
       "basename": "http & https",
