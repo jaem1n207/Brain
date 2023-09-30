@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "http & https",
+      "path": "코딩/cs/network/http & https.md"
+    },
+    {
+      "basename": "tcp 3-way handshake",
+      "path": "코딩/cs/network/tcp 3-way handshake.md"
+    },
+    {
+      "basename": "tcp & udp",
+      "path": "코딩/cs/network/tcp & udp.md"
+    },
+    {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
+    },
+    {
+      "basename": "array & linked-list",
+      "path": "코딩/cs/data-structure/array & linked-list.md"
+    },
+    {
       "basename": "html",
       "path": "코딩/html.md"
     },
@@ -9,28 +33,12 @@
       "path": "코딩/css.md"
     },
     {
-      "basename": "http & https",
-      "path": "코딩/cs/network/http & https.md"
-    },
-    {
       "basename": "hash-table",
       "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
-      "basename": "tree",
-      "path": "코딩/cs/data-structure/tree.md"
-    },
-    {
       "basename": "min-heap-delete-bubble",
       "path": "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md"
-    },
-    {
-      "basename": "tcp & udp",
-      "path": "코딩/cs/network/tcp & udp.md"
-    },
-    {
-      "basename": "tcp 3-way handshake",
-      "path": "코딩/cs/network/tcp 3-way handshake.md"
     },
     {
       "basename": "소프트웨어 개발 프로세스",
