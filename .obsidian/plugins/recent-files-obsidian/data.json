@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "html",
+      "path": "코딩/html.md"
+    },
+    {
       "basename": "css",
       "path": "코딩/css.md"
     },
     {
-      "basename": "html",
-      "path": "코딩/html.md"
+      "basename": "http & https",
+      "path": "코딩/cs/network/http & https.md"
+    },
+    {
+      "basename": "hash-table",
+      "path": "코딩/cs/data-structure/hash-table.md"
+    },
+    {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "min-heap-delete-bubble",
+      "path": "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md"
     },
     {
       "basename": "tcp & udp",
@@ -19,10 +35,6 @@
     {
       "basename": "소프트웨어 개발 프로세스",
       "path": "코딩/software-engineering/소프트웨어 개발 프로세스.md"
-    },
-    {
-      "basename": "http & https",
-      "path": "코딩/cs/network/http & https.md"
     },
     {
       "basename": "지식",
@@ -43,10 +55,6 @@
     {
       "basename": "min-heap-delete-1",
       "path": "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md"
-    },
-    {
-      "basename": "min-heap-delete-bubble",
-      "path": "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md"
     },
     {
       "basename": "min-heap-delete",
