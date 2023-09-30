@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/css.md",
-                "mode": "source",
+                "file": "코딩/html.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/css.md",
+                "file": "코딩/html.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/css.md",
+                "file": "코딩/html.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/css.md"
+                "file": "코딩/html.md"
               }
             }
           }
@@ -165,8 +165,8 @@
   },
   "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
-    "코딩/html.md",
     "코딩/css.md",
+    "코딩/html.md",
     "code-playground/html-question/bubble.js",
     "code-playground/html-question/bubble.html",
     "code-playground/html-question",
