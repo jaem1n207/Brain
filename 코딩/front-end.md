@@ -157,6 +157,21 @@ https://ykss.netlify.app/translation/everything_i_wish_i_knew_before_moving_5000
 - BEM 의 M 는 “Modifier”이다.
     - 블록이나 요소의 모양, 상태를 정의한다. `block_element-modifier`, `block—modifier` 형태로 사용한다. 수식어에는 불리언 타입과 키-값 타입이 있다.
 
+```css
+/* block component */
+.block {
+}
+
+/* element */
+.block__element {
+}
+
+/* modifier */
+.block__element--modifier {
+}
+```
+[What is CSS BEM?](https://github.com/30-seconds/30-seconds-of-interviews#what-is-css-bem)
+
 ## normalize vs reset - [JBEE](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#normalize-vs-reset)
 브라우저마다 기본적으로 제공하는 element 의 style 을 통일시키기 위해 사용하는 두 `css`에 대해 알아본다.
 ### [reset.css](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#resetcss)

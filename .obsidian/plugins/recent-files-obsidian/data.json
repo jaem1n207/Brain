@@ -1,18 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "coding",
-      "path": "코딩/coding.md"
-    },
-    {
-      "basename": "performance",
-      "path": "코딩/performance.md"
-    },
-    {
-      "basename": "html",
-      "path": "코딩/html.md"
-    },
-    {
       "basename": "javascript",
       "path": "코딩/javascript.md"
     },
@@ -21,8 +9,24 @@
       "path": "코딩/front-end.md"
     },
     {
+      "basename": "html",
+      "path": "코딩/html.md"
+    },
+    {
+      "basename": "performance",
+      "path": "코딩/performance.md"
+    },
+    {
       "basename": "css",
       "path": "코딩/css.md"
+    },
+    {
+      "basename": "프로세스와 스레드의 차이",
+      "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
+    },
+    {
+      "basename": "coding",
+      "path": "코딩/coding.md"
     },
     {
       "basename": "README",
