@@ -181,6 +181,19 @@ https://ykss.netlify.app/translation/everything_i_wish_i_knew_before_moving_5000
         
     - 폴리필(polyfill)은 현재 브라우저에서 지원하지 않는 최신기능이나 API를 구현하여, 오래된 브라우저에서도 해당 기능을 사용할 수 있도록 해주는 코드조각입니다.
 
+## 그 외 프론트엔드 개발 환경 관련 - [JBEE](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#%EA%B7%B8-%EC%99%B8-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B4%80%EB%A0%A8)
+- 웹팩(webpack)이란?
+    
+    - 웹팩은 자바스크립트 애플리케이션을 위한 모듈 번들러입니다. 웹팩은 의존성을 관리하고, 여러 파일을 하나의 번들로 묶어주며, 코드를 최적화하고 압축하는 기능을 제공합니다.
+    - [https://joshua1988.github.io/webpack-guide/webpack/what-is-webpack.html#%EC%9B%B9%ED%8C%A9%EC%9D%B4%EB%9E%80](https://joshua1988.github.io/webpack-guide/webpack/what-is-webpack.html#%EC%9B%B9%ED%8C%A9%EC%9D%B4%EB%9E%80)
+- 바벨과 폴리필이란?
+    
+    - 바벨(Babel)은 자바스크립트 코드를 변환해주는 트랜스 컴파일러입니다. 최신 자바스크립트 문법으로 작성된 코드를 예전 버전의 자바스크립트 문법으로 변환하여 호환성을 높이는 역할을 합니다.
+        
+        이 변환과정에서 브라우저별로 지원하는 기능을 체크하고 해당 기능을 대체하는 폴리필을 제공하여 이를 통해 크로스 브라우징 이슈도 어느정도 해결할 수 있습니다.
+        
+    - 폴리필(polyfill)은 현재 브라우저에서 지원하지 않는 최신기능이나 API를 구현하여, 오래된 브라우저에서도 해당 기능을 사용할 수 있도록 해주는 코드조각입니다.
+
 ## 참고
 - [d2-브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
 - [카카오웹툰은 하드웨어 가속과 IntersectionObserver를 어떻게 사용했을까?](https://fe-developers.kakaoent.com/2021/211202-gpu-intersection-observer/)
