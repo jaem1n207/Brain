@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "코딩/front-end.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -165,7 +165,10 @@
   },
   "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
+    "코딩/css.md",
+    "코딩/javascript.md",
     "코딩/html.md",
+    "README.md",
     "코딩/front-end.md",
     "무제 파일.md",
     "코딩/지식.md",
@@ -176,7 +179,6 @@
     "Excalidraw/front-end/무제 파일.md",
     "Excalidraw/front-end",
     "코딩/react/render.md",
-    "코딩/css.md",
     "코딩/cs/data-structure/tree.md",
     "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/network/http & https.md",
@@ -201,9 +203,7 @@
     "코딩/patterns/design-patterns",
     "코딩/git/git.md",
     "코딩/cs/network",
-    "코딩/etc/왜 webpack에서 vite로 전환하였는가?.md",
     "코딩/cs/os",
-    "Excalidraw/코딩/cs/data-structure/tree.md",
     "Excalidraw/cs/data-structure/tree/heapify-down.svg",
     "Excalidraw/cs/data-structure/tree/heapify-up.svg",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",

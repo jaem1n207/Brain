@@ -5,12 +5,20 @@
       "path": "코딩/front-end.md"
     },
     {
+      "basename": "css",
+      "path": "코딩/css.md"
+    },
+    {
+      "basename": "javascript",
+      "path": "코딩/javascript.md"
+    },
+    {
       "basename": "html",
       "path": "코딩/html.md"
     },
     {
-      "basename": "무제 파일",
-      "path": "무제 파일.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "critical-rendering-path",
@@ -19,10 +27,6 @@
     {
       "basename": "render",
       "path": "코딩/react/render.md"
-    },
-    {
-      "basename": "css",
-      "path": "코딩/css.md"
     },
     {
       "basename": "tree",
@@ -107,10 +111,6 @@
     {
       "basename": "tree",
       "path": "Excalidraw/cs/data-structure/tree/tree.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
