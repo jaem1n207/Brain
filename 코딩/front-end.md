@@ -79,6 +79,47 @@ https://ykss.netlify.app/translation/everything_i_wish_i_knew_before_moving_5000
 - CDN 사용
 - 동시 커넥션 수를 최소화
 - 중요한 에셋을 미리 로드하여 로딩 속도 향상
+- `HTML5 App cache` 활용
+- `gzip` 또는 `brotli`압축을 사용
+- `meta-refresh` 사용 금지
+- `3.xx` 리다이렉트를 피할 것
+### 효율적인 마크업 구조 구축
+- `@import`의 사용은 피하기
+- `inline`스타일과 `embedded`스타일은 피하기
+- 중복되는 코드 최소화
+- 단일 프레임워크 사용
+- Third Party 스크립트 삽입 x
+### 이미지 최적화
+- ImageOptim 등 도구를 사용해 이미지 압축
+- 애니메이션 GIF를 비디오로 대체하여 페이지를 더 빠르게 로드
+- 반응형 이미지 제공
+- 올바른 크기의 이미지 제공
+- WebP 이미지 사용
+- 이미지 CDN을 사용해 이미지 최적화
+### WebFonts 최적화
+- 글꼴 로드 중 보이지 않는 텍스트 방지
+- WebFont 로딩 및 렌더링 최적화
+- WebFont 크기 줄이기
+### JS 최적화
+- 오래 걸리는 작업 최적화
+- 코드 분할: JS 페이로드 줄이기
+- 사용하지 않는 코드 제거
+- 네트워크 페이로드 축소 및 압축
+- DOM에 대한 접근 최소화: DOM manipulate는 느림
+- ECMAScript 모듈 구문을 사용하기: CJS는 tree shaking에 영향을 줌
+### 미디어 사용 개선
+- 이미지 스프라이트를 사용
+- 실제 이미지 해상도 사용
+- 작은 크기의 이미즈는 DataURL 사용
+- 비디오의 미리보기 이미지 만들기
+### CSS 최적화
+- 중요하지 않은 CSS 연기
+- CSS 축소
+- 중요한 CSS 추출
+- 미디어 쿼리로 CSS 배경 이미지 최적화
+### 애플리케이션의 작동원리 알고 있기
+- Timer 사용에 유의하기
+- `requestAnimationFrame`을 사
 
 ## 참고
 - [d2-브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
