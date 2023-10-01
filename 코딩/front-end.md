@@ -59,8 +59,20 @@ CORS 관련 문제가 발생하는 경우 다른 원본에서 리소스를 가�
 3. 직접 구현할 시에는 '기능 탐지'를 이용하기
    각 브라우저에서 지원하는 함수, 메소드, 그리고 기능들이 다르기 때문에, if 문을 통해서 분기를 설정한 다음 함수를 적용해야 합니다. `feature detection`이라는 방법을 통해 굳이 어떤 브라우저인지 우리가 알 필요 없이 해당 브라우저에 내가 제공하고자 하는 기능이 있는지를 확인하면 됩니다.
 4. 여러 도구를 활용하기
-   웹 표준을 지키고 있는지 검사하려면 Can I use?, HTML5 Markup Validation Service, CSS-Validator
-   
+   웹 표준을 지키고 있는지 검사하려면 Can I use?, HTML5 Markup Validation Service, CSS-Validator 등의 사이트를 통해 검사
+   reset.css or normalize.css를 사용해서 브라우저의 기본 스타일이 제각각인 경우에 대해 초기화를 시킵니다.
+   prefix를 적어줄 수도 있습니다. 아직 웹 표준이 안 된 기능을 브라우저들이 가져다 지원하기 때문에 기능 앞에 각 브라우저들의 엔진을 prefix로 적어주는 것입니다. 주의할 점으로는 접두어가 없는 속성은 가장 나중에 추가해줘야 합니다.
+```css
+#menu {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+```
+
+## 서버 사이드 렌더링과 클라이언트 사이드 렌더링
+http://asfirstalways.tistory.com/244
+https://ykss.netlify.app/translation/everything_i_wish_i_knew_before_moving_50000_lines_of_code_to_react_server_components/
 
 ## 참고
 - [d2-브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
