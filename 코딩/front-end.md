@@ -42,11 +42,28 @@ CORS 관련 문제가 발생하는 경우 다른 원본에서 리소스를 가�
 1. Server Side:
 	1. `Access-Control-Allow-Origin: <origin>`특정 출처를 허용하도록 적절한 헤더를 설정하면 됩니다.
 	2. 쿠키나 HTTP 인증을 지원해야 하는 경우 `Access-Control-Allow-Credentials: true`로 설정하면 됩니다. 이 경우 `*`와 같은 와일드카드를 사용할 수 없으며, 정확한 출처를 지정해야 합니다.
-2. Client Side: (보안 문제로 인해 프롣)
+2. Client Side: (보안 문제로 인해 프로덕션에서는 권장되지 않습니다.)
 	1. 프록시 서버 사용: 클라이언트가 프록시에 요청을 보낸 다음 프록시는 브라우저 제한을 우회하여 대상 서버로 요청을 보냅니다.
 	2. JSONP 사용: 이는 동일 출처 정책의 허점을 이용하는 오래된 기술(Query v.1.2 이상부터 `jsonp`형태가 지원되어 ajax 를 호출할 때 타 도메인간 호출이 가능)입니다. JSONP는 `GET`요청만 지원하므로 위험할 수 있습니다.
+3. Dev Environments
+	1. 개발 목적으로 `CORS Everywhere`브라우저에서 동일 출처 정책을 비활성화하거나 비활성화하는 것과 같은 브라우저 확장 또는 도구를 사용할 수 있습니다(이렇게 하면 보안 취약점이 발생하므로 주의). 그러나 프로덕션 환경이나 매일 탐색하는 브라우저 프로필에서는 이러한 기능을 사용하지 않아야 합니다.
+
+## 크로스 브라우징
+웹 표준에 따라 개발을 하여 서로 다른 OS 또는 플랫폼에 대응하는 것을 말합니다. 즉, 브라우저의 렌더링 엔진이 다른 경우에 인터넷이 이상없이 구현되도록 하는 기술입니다. 웹 사이트를 서로 비슷하게 만들어 어떤 환경에서도 이상없이 작동하게 하는데 그 목적이 있습니다. 즉, 어느 한쪽에 최적화되어 치우치지 않도록 공통요소를 사용하여 웹 페이지를 제작하는 방법을 의미합니다.
+
+### 크로스 브라우징 이슈에 대응하는 다양한 방법
+1. 적용 기능의 지원 브라우저를 파악하기
+   개발 기획 시에 우리가 개발할 기능들을 정의하고, 그 기능들을 **지원할 브라우저를 우선 파악**합니다.
+2. 모든 환경에서 지원해야 한다면 라이브러리를 이용하기
+   polyfill, underscore 등 라이브러리는 호환성 이슈를 해결하기 위한 아주 좋은 전략입니다. 대신 라이브러리를 잘 관리해야하는 비용이 생기기 때문에 주의해야 합니다.
+3. 직접 구현할 시에는 '기능 탐지'를 이용하기
+   각 브라우저에서 지원하는 함수, 메소드, 그리고 기능들이 다르기 때문에, if 문을 통해서 분기를 설정한 다음 함수를 적용해야 합니다. `feature detection`이라는 방법을 통해 굳이 어떤 브라우저인지 우리가 알 필요 없이 해당 브라우저에 내가 제공하고자 하는 기능이 있는지를 확인하면 됩니다.
+4. 여러 도구를 활용하기
+   웹 표준을 지키고 있는지 검사하려면 Can I use?, HTML5 Markup Validation Service, CSS-Validator
+   
 
 ## 참고
 - [d2-브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
 - [카카오웹툰은 하드웨어 가속과 IntersectionObserver를 어떻게 사용했을까?](https://fe-developers.kakaoent.com/2021/211202-gpu-intersection-observer/)
 - [JBEE-Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#document-object-model)
+- [크로스 브라우징 이슈에 대응하는 프론트엔드 개발자들의 전략](http://asfirstalways.tistory.com/237)
