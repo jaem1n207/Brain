@@ -74,6 +74,12 @@ CORS 관련 문제가 발생하는 경우 다른 원본에서 리소스를 가�
 http://asfirstalways.tistory.com/244
 https://ykss.netlify.app/translation/everything_i_wish_i_knew_before_moving_50000_lines_of_code_to_react_server_components/
 
+## 사이트 성능을 높이기 위한 기술
+### 리소스 전달 최적화
+- CDN 사용
+- 동시 커넥션 수를 최소화
+- 중요한 에셋을 미리 로드하여 로딩 속도 향상
+
 ## 참고
 - [d2-브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
 - [카카오웹툰은 하드웨어 가속과 IntersectionObserver를 어떻게 사용했을까?](https://fe-developers.kakaoent.com/2021/211202-gpu-intersection-observer/)
