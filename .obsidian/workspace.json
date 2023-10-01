@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/javascript.md",
+                "file": "코딩/performance.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/javascript.md",
+                "file": "코딩/performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/javascript.md",
+                "file": "코딩/performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/javascript.md"
+                "file": "코딩/performance.md"
               }
             }
           }
@@ -165,9 +165,11 @@
   },
   "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
+    "코딩/javascript.md",
+    "코딩/performance.md",
+    "코딩/performance.md",
     "코딩/front-end.md",
     "코딩/css.md",
-    "코딩/javascript.md",
     "코딩/html.md",
     "README.md",
     "무제 파일.md",
@@ -199,9 +201,7 @@
     "코딩/patterns/design-patterns/builder-pattern.md",
     "코딩/cs/os/프로세스와 스레드의 차이.md",
     "코딩/cs/data-structure/hash-table.md",
-    "코딩/cs/data-structure/graph.md",
     "코딩/patterns/design-patterns",
-    "코딩/git/git.md",
     "코딩/cs/network",
     "코딩/cs/os",
     "Excalidraw/cs/data-structure/tree/heapify-down.svg",
