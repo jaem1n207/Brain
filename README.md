@@ -7,6 +7,7 @@
 	- [운영체제](https://github.com/jaem1n207/Brain/tree/main/%EC%BD%94%EB%94%A9/cs/os)
 	- [디자인패턴](https://github.com/jaem1n207/Brain/tree/main/%EC%BD%94%EB%94%A9/patterns/design-patterns)
 - [소프트웨어 공학](https://github.com/jaem1n207/Brain/tree/main/%EC%BD%94%EB%94%A9/software-engineering)
+- [JS 문제](https://github.com/jaem1n207/Brain/blob/main/%EC%BD%94%EB%94%A9/coding.md)
 - [HTML](https://github.com/jaem1n207/Brain/blob/main/%EC%BD%94%EB%94%A9/html.md)
 - [CSS](https://github.com/jaem1n207/Brain/blob/main/%EC%BD%94%EB%94%A9/css.md)
 - [JavaScript](https://github.com/jaem1n207/Brain/blob/main/%EC%BD%94%EB%94%A9/javascript.md)
