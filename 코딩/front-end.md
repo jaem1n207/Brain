@@ -17,3 +17,8 @@ tags:
 7. 화면에 실제 픽셀을 Paint합니다.
 
 각 단계에 대한 자세한 내용은 [브라우저는 웹페이지를 어떻게 그리나요?](https://m.post.naver.com/viewer/postView.nhn?volumeNo=8431285&memberNo=34176766)블로그를 참고해주세요.
+
+## 참고
+- [d2-브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
+- [카카오웹툰은 하드웨어 가속과 IntersectionObserver를 어떻게 사용했을까?](https://fe-developers.kakaoent.com/2021/211202-gpu-intersection-observer/)
+- [JBEE-Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#document-object-model)
