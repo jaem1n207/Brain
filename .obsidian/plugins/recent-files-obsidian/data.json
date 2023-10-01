@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "css",
+      "path": "코딩/css.md"
+    },
+    {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "html",
       "path": "코딩/html.md"
-    },
-    {
-      "basename": "css",
-      "path": "코딩/css.md"
     },
     {
       "basename": "hash-table",
