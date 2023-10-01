@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
+    },
+    {
       "basename": "http & https",
       "path": "코딩/cs/network/http & https.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "tcp & udp",
       "path": "코딩/cs/network/tcp & udp.md"
-    },
-    {
-      "basename": "tree",
-      "path": "코딩/cs/data-structure/tree.md"
-    },
-    {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
       "basename": "array & linked-list",
