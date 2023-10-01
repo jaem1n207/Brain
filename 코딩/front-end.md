@@ -156,6 +156,30 @@ https://ykss.netlify.app/translation/everything_i_wish_i_knew_before_moving_5000
 - BEM 의 M 는 “Modifier”이다.
     - 블록이나 요소의 모양, 상태를 정의한다. `block_element-modifier`, `block—modifier` 형태로 사용한다. 수식어에는 불리언 타입과 키-값 타입이 있다.
 
+## normalize vs reset - [JBEE](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#normalize-vs-reset)
+브라우저마다 기본적으로 제공하는 element 의 style 을 통일시키기 위해 사용하는 두 `css`에 대해 알아본다.
+### [reset.css](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#resetcss)
+
+`reset.css`는 기본적으로 제공되는 브라우저 스타일 전부를 **제거** 하기 위해 사용된다. `reset.css`가 적용되면 `<H1>~<H6>`, `<p>`, `<strong>`, `<em>` 등 과 같은 표준 요소는 완전히 똑같이 보이며 브라우저가 제공하는 기본적인 styling 이 전혀 없다.
+### [normalize.css](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#normalizecss)
+
+`normalize.css`는 브라우저 간 일관된 스타일링을 목표로 한다. `<H1>~<H6>`과 같은 요소는 브라우저간에 일관된 방식으로 굵게 표시됩니다. 추가적인 디자인에 필요한 style 만 CSS 로 작성해주면 된다.
+
+즉, `normalize.css`는 모든 것을 "해제"하기보다는 유용한 기본값을 보존하는 것이다. 예를 들어, sup 또는 sub 와 같은 요소는 `normalize.css`가 적용된 후 바로 기대하는 스타일을 보여준다. 반면 `reset.css`를 포함하면 시각적으로 일반 텍스트와 구별 할 수 없다. 또한 normalize.css 는 reset.css 보다 넓은 범위를 가지고 있으며 HTML5 요소의 표시 설정, 양식 요소의 글꼴 상속 부족, pre-font 크기 렌더링 수정, IE9 의 SVG 오버플로 및 iOS 의 버튼 스타일링 버그 등에 대한 이슈를 해결해준다.
+### [그 외 프론트엔드 개발 환경 관련](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/main/FrontEnd/README.md#%EA%B7%B8-%EC%99%B8-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B4%80%EB%A0%A8)
+
+- 웹팩(webpack)이란?
+    
+    - 웹팩은 자바스크립트 애플리케이션을 위한 모듈 번들러입니다. 웹팩은 의존성을 관리하고, 여러 파일을 하나의 번들로 묶어주며, 코드를 최적화하고 압축하는 기능을 제공합니다.
+    - [https://joshua1988.github.io/webpack-guide/webpack/what-is-webpack.html#%EC%9B%B9%ED%8C%A9%EC%9D%B4%EB%9E%80](https://joshua1988.github.io/webpack-guide/webpack/what-is-webpack.html#%EC%9B%B9%ED%8C%A9%EC%9D%B4%EB%9E%80)
+- 바벨과 폴리필이란?
+    
+    - 바벨(Babel)은 자바스크립트 코드를 변환해주는 트랜스 컴파일러입니다. 최신 자바스크립트 문법으로 작성된 코드를 예전 버전의 자바스크립트 문법으로 변환하여 호환성을 높이는 역할을 합니다.
+        
+        이 변환과정에서 브라우저별로 지원하는 기능을 체크하고 해당 기능을 대체하는 폴리필을 제공하여 이를 통해 크로스 브라우징 이슈도 어느정도 해결할 수 있습니다.
+        
+    - 폴리필(polyfill)은 현재 브라우저에서 지원하지 않는 최신기능이나 API를 구현하여, 오래된 브라우저에서도 해당 기능을 사용할 수 있도록 해주는 코드조각입니다.
+
 ## 참고
 - [d2-브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
 - [카카오웹툰은 하드웨어 가속과 IntersectionObserver를 어떻게 사용했을까?](https://fe-developers.kakaoent.com/2021/211202-gpu-intersection-observer/)
