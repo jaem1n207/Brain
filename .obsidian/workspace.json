@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/performance.md",
+                "file": "코딩/coding.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/performance.md",
+                "file": "코딩/coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/performance.md",
+                "file": "코딩/coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/performance.md"
+                "file": "코딩/coding.md"
               }
             }
           }
@@ -165,12 +165,12 @@
   },
   "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
+    "코딩/performance.md",
+    "코딩/coding.md",
+    "코딩/html.md",
     "코딩/javascript.md",
-    "코딩/performance.md",
-    "코딩/performance.md",
     "코딩/front-end.md",
     "코딩/css.md",
-    "코딩/html.md",
     "README.md",
     "무제 파일.md",
     "코딩/지식.md",

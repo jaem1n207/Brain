@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "coding",
+      "path": "코딩/coding.md"
+    },
+    {
       "basename": "performance",
       "path": "코딩/performance.md"
+    },
+    {
+      "basename": "html",
+      "path": "코딩/html.md"
     },
     {
       "basename": "javascript",
@@ -15,10 +23,6 @@
     {
       "basename": "css",
       "path": "코딩/css.md"
-    },
-    {
-      "basename": "html",
-      "path": "코딩/html.md"
     },
     {
       "basename": "README",
