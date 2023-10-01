@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2023-10-01 17.53.30.excalidraw",
-      "path": "Excalidraw/front-end/Drawing 2023-10-01 17.53.30.excalidraw.md"
-    },
-    {
       "basename": "front-end",
       "path": "코딩/front-end.md"
+    },
+    {
+      "basename": "critical-rendering-path",
+      "path": "Excalidraw/front-end/critical-rendering-path.md"
     },
     {
       "basename": "render",
@@ -55,14 +55,6 @@
     {
       "basename": "소프트웨어 개발 프로세스",
       "path": "코딩/software-engineering/소프트웨어 개발 프로세스.md"
-    },
-    {
-      "basename": "지식",
-      "path": "코딩/지식.md"
-    },
-    {
-      "basename": "지식 캔버스",
-      "path": "코딩/지식 캔버스.canvas"
     },
     {
       "basename": "heapify-down",

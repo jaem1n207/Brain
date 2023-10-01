@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "635e8eedadd8cd6b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/front-end/Drawing 2023-10-01 17.53.30.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/front-end/Drawing 2023-10-01 17.53.30.excalidraw.md",
+                "file": "코딩/front-end.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/front-end/Drawing 2023-10-01 17.53.30.excalidraw.md",
+                "file": "코딩/front-end.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/front-end/Drawing 2023-10-01 17.53.30.excalidraw.md"
+                "file": "코딩/front-end.md"
               }
             }
           }
@@ -174,10 +163,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "635e8eedadd8cd6b",
+  "active": "55a6e4b6d06a24cb",
   "lastOpenFiles": [
+    "코딩/지식.md",
+    "코딩/지식 캔버스.canvas",
+    "Excalidraw/front-end/critical-rendering-path.md",
+    "Excalidraw/front-end/critical-rendering-path.svg",
     "코딩/front-end.md",
-    "Excalidraw/front-end/Drawing 2023-10-01 17.53.30.excalidraw.md",
+    "Excalidraw/front-end/Drawing 2023-10-01 17.53.30.excalidraw.svg",
     "Excalidraw/front-end/무제 파일.md",
     "Excalidraw/front-end",
     "코딩/react/render.md",
@@ -196,8 +189,6 @@
     "code-playground/html",
     "코딩/software-engineering/소프트웨어 개발 프로세스.md",
     "코딩/software-engineering",
-    "코딩/지식.md",
-    "코딩/지식 캔버스.canvas",
     "Excalidraw/코딩/etc/왜 webpack에서 vite로 전환하였는가?.md",
     "코딩/patterns/design-patterns/singleton.md",
     "코딩/patterns/design-patterns/observer-pattern.md",
@@ -212,7 +203,6 @@
     "코딩/etc/왜 webpack에서 vite로 전환하였는가?.md",
     "코딩/cs/os",
     "Excalidraw/코딩/cs/data-structure/tree.md",
-    "Excalidraw/코딩/git/git.md",
     "Excalidraw/cs/data-structure/tree/heapify-down.svg",
     "Excalidraw/cs/data-structure/tree/heapify-up.svg",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.svg",
@@ -221,8 +211,6 @@
     "Excalidraw/cs/data-structure/tree/min-heap-delete.svg",
     "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.26.06.excalidraw.svg",
     "Excalidraw/cs/data-structure/tree/Drawing 2023-09-24 18.10.25.excalidraw.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap-bubble-process.svg",
-    "Excalidraw/cs/data-structure/tree/min-heap-insert-before.svg",
     "Excalidraw/cs/data-structure/tree/무제 파일.canvas",
     "무제 파일.canvas",
     "Excalidraw/코딩/지식 캔버스.canvas",
