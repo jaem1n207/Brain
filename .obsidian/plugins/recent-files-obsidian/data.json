@@ -5,12 +5,16 @@
       "path": "코딩/javascript.md"
     },
     {
-      "basename": "기억 조각",
-      "path": "코딩/기억 조각.md"
+      "basename": "array & linked-list",
+      "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
       "basename": "html",
       "path": "코딩/html.md"
+    },
+    {
+      "basename": "기억 조각",
+      "path": "코딩/기억 조각.md"
     },
     {
       "basename": "coding",
@@ -63,10 +67,6 @@
     {
       "basename": "tcp & udp",
       "path": "코딩/cs/network/tcp & udp.md"
-    },
-    {
-      "basename": "array & linked-list",
-      "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
       "basename": "hash-table",

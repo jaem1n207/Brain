@@ -39,8 +39,8 @@ getX();
 함수가 자신이 위치한 코드에 상관없이 함수 선언문 형태로 정의한 함수의 유효범위는 전체 코드의 맨 처음부터 시작한다. 함수 선언이 함수 실행 부분보다 뒤에 있더라도 자바스크립트 엔진이 함수 선언을 끌어올리는 것을 의미한다. 함수 호이스팅은 함수를 끌어올리지만 변수의 값은 끌어올리지 않는다.
 
 ```js
-foo( );
-function foo( ){
+foo();
+function foo(){
   console.log(‘hello’);
 };
 // console> hello
@@ -49,8 +49,8 @@ function foo( ){
 foo 함수에 대한 선언을 호이스팅하여 global 객체에 등록시키기 때문에 `hello`가 제대로 출력된다.
 
 ```js
-foo( );
-var foo = function( ) {
+foo();
+var foo = function() {
   console.log(‘hello’);
 };
 // console> Uncaught TypeError: foo is not a function
