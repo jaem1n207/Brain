@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "front-end",
+      "path": "코딩/front-end.md"
+    },
+    {
+      "basename": "html",
+      "path": "코딩/html.md"
+    },
+    {
       "basename": "javascript",
       "path": "코딩/javascript.md"
     },
@@ -9,20 +17,12 @@
       "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
-      "basename": "html",
-      "path": "코딩/html.md"
-    },
-    {
       "basename": "기억 조각",
       "path": "코딩/기억 조각.md"
     },
     {
       "basename": "coding",
       "path": "코딩/coding.md"
-    },
-    {
-      "basename": "front-end",
-      "path": "코딩/front-end.md"
     },
     {
       "basename": "README",
