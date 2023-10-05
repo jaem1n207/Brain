@@ -6,7 +6,7 @@
       {
         "id": "144ce8faad4770f6",
         "type": "tabs",
-        "dimension": 58.07493540051679,
+        "dimension": 58.0749354005168,
         "children": [
           {
             "id": "b7354f76a7ed106d",
@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "코딩/javascript.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -185,8 +185,8 @@
   },
   "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
-    "코딩/기억 조각.md",
     "코딩/javascript.md",
+    "코딩/기억 조각.md",
     "코딩/html.md",
     "코딩/coding.md",
     "코딩/front-end.md",
