@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
+    },
+    {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "hash-table",
+      "path": "코딩/cs/data-structure/hash-table.md"
+    },
+    {
+      "basename": "graph",
+      "path": "코딩/cs/data-structure/graph.md"
+    },
+    {
+      "basename": "array & linked-list",
+      "path": "코딩/cs/data-structure/array & linked-list.md"
+    },
+    {
       "basename": "front-end",
       "path": "코딩/front-end.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "javascript",
       "path": "코딩/javascript.md"
-    },
-    {
-      "basename": "array & linked-list",
-      "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
       "basename": "기억 조각",
@@ -33,16 +49,8 @@
       "path": "코딩/performance.md"
     },
     {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
-    },
-    {
       "basename": "css",
       "path": "코딩/css.md"
-    },
-    {
-      "basename": "tree",
-      "path": "코딩/cs/data-structure/tree.md"
     },
     {
       "basename": "프로세스와 스레드의 차이",
@@ -67,10 +75,6 @@
     {
       "basename": "tcp & udp",
       "path": "코딩/cs/network/tcp & udp.md"
-    },
-    {
-      "basename": "hash-table",
-      "path": "코딩/cs/data-structure/hash-table.md"
     },
     {
       "basename": "min-heap-delete-bubble",
