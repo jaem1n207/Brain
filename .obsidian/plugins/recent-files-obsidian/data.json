@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "array & linked-list",
-      "path": "코딩/cs/data-structure/array & linked-list.md"
-    },
-    {
       "basename": "stack & queue",
       "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
       "basename": "tree",
       "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "array & linked-list",
+      "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
       "basename": "hash-table",
