@@ -5,8 +5,8 @@
       "path": "코딩/cs/data-structure/tree.md"
     },
     {
-      "basename": "graph",
-      "path": "코딩/cs/data-structure/graph.md"
+      "basename": "stack & queue",
+      "path": "코딩/cs/data-structure/stack & queue.md"
     },
     {
       "basename": "hash-table",
@@ -17,8 +17,8 @@
       "path": "코딩/cs/data-structure/array & linked-list.md"
     },
     {
-      "basename": "stack & queue",
-      "path": "코딩/cs/data-structure/stack & queue.md"
+      "basename": "graph",
+      "path": "코딩/cs/data-structure/graph.md"
     },
     {
       "basename": "front-end",
