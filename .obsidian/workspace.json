@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "코딩/cs/data-structure/hash-table.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "코딩/cs/data-structure/hash-table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md",
+                "file": "코딩/cs/data-structure/hash-table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/data-structure/tree.md"
+                "file": "코딩/cs/data-structure/hash-table.md"
               }
             }
           }
@@ -165,10 +165,10 @@
   },
   "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
+    "코딩/cs/data-structure/tree.md",
     "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/array & linked-list.md",
-    "코딩/cs/data-structure/tree.md",
     "코딩/cs/data-structure/graph.md",
     "코딩/front-end.md",
     "코딩/html.md",
