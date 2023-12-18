@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/data-structure/array & linked-list.md",
+                "file": "코딩/cs/data-structure/stack & queue.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "코딩/cs/data-structure/array & linked-list.md",
+            "file": "코딩/cs/data-structure/stack & queue.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "코딩/cs/data-structure/array & linked-list.md",
+            "file": "코딩/cs/data-structure/stack & queue.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "코딩/cs/data-structure/array & linked-list.md"
+            "file": "코딩/cs/data-structure/stack & queue.md"
           }
         }
       }
@@ -144,6 +144,8 @@
   },
   "active": "063038c69744e1ed",
   "lastOpenFiles": [
+    "코딩/cs/data-structure/array & linked-list.md",
+    "코딩/cs/data-structure/hash-table.md",
     "코딩/html.md",
     "코딩/coding.md",
     "코딩/front-end.md",
@@ -153,7 +155,6 @@
     "무제 파일.md",
     "코딩/css.md",
     "코딩/cs/network/http & https.md",
-    "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/tree.md",
     "Excalidraw/cs/data-structure/tree/min-heap-delete-bubble.md",
     "code-playground/design-patterns/singleton.mjs",
@@ -181,7 +182,6 @@
     "Excalidraw/cs/data-structure/tree/min-heap-delete-1.md",
     "코딩/cs/data-structure/stack & queue.md",
     "코딩/cs/data-structure/graph.md",
-    "코딩/cs/data-structure/array & linked-list.md",
     "code-playground/yarn.lock",
     "Excalidraw/cs/data-structure/tree/unbalanced-tree.svg",
     "code-playground/package.json",
