@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "tree",
+      "path": "코딩/cs/data-structure/tree.md"
+    },
+    {
+      "basename": "http & https",
+      "path": "코딩/cs/network/http & https.md"
+    },
+    {
       "basename": "프로세스와 스레드의 차이",
       "path": "코딩/cs/os/프로세스와 스레드의 차이.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "hash-table",
       "path": "코딩/cs/data-structure/hash-table.md"
-    },
-    {
-      "basename": "tree",
-      "path": "코딩/cs/data-structure/tree.md"
     },
     {
       "basename": "graph",
@@ -63,10 +67,6 @@
     {
       "basename": "render",
       "path": "코딩/react/render.md"
-    },
-    {
-      "basename": "http & https",
-      "path": "코딩/cs/network/http & https.md"
     },
     {
       "basename": "tcp 3-way handshake",

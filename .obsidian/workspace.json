@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩/cs/os/프로세스와 스레드의 차이.md",
+                "file": "코딩/cs/data-structure/tree.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코딩/cs/os/프로세스와 스레드의 차이.md",
+                "file": "코딩/cs/data-structure/tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코딩/cs/os/프로세스와 스레드의 차이.md",
+                "file": "코딩/cs/data-structure/tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코딩/cs/os/프로세스와 스레드의 차이.md"
+                "file": "코딩/cs/data-structure/tree.md"
               }
             }
           }
@@ -165,6 +165,8 @@
   },
   "active": "b7354f76a7ed106d",
   "lastOpenFiles": [
+    "코딩/cs/network/http & https.md",
+    "코딩/cs/os/프로세스와 스레드의 차이.md",
     "코딩/cs/data-structure/hash-table.md",
     "코딩/cs/data-structure/tree.md",
     "코딩/cs/data-structure/array & linked-list.md",
@@ -178,7 +180,6 @@
     "README.md",
     "코딩/performance.md",
     "코딩/css.md",
-    "코딩/cs/os/프로세스와 스레드의 차이.md",
     "무제 파일.md",
     "코딩/지식.md",
     "코딩/지식 캔버스.canvas",
@@ -188,7 +189,6 @@
     "Excalidraw/front-end/무제 파일.md",
     "Excalidraw/front-end",
     "코딩/react/render.md",
-    "코딩/cs/network/http & https.md",
     "코딩/cs/network/tcp 3-way handshake.md",
     "코딩/cs/network/tcp & udp.md",
     "code-playground/html-question/bubble.js",
